@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,user-scalable=yes,initial-scale=1.0,maximum-scale=2.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>진영의 포트폴리오</title>
+	<!-- font -->
+	<link href="https://fonts.googleapis.com/css?family=Gothic+A1:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+	<!-- css -->
+	<link rel="stylesheet" href="./css/common.css">
+	<link rel="stylesheet" href="./css/main.css">
+	<!-- JS -->
+	<script type="text/javascript" src="./lib/jquery/jQuery-3.3.1.js"></script>
+	<script type="text/javascript" src="./lib/jquery.easing-master/jquery.easing.js"></script>
+	<!-- 2019-01-24 웹표준 검사 완료 -->
+</head>
+<body>
+<div id="wrap">
+	<header>
+		<div class="inner"><!-- 추후 추가할 부분 -->
+			<nav>
+				<ul>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+				</ul>
+			</nav>
+		</div><!-- .inner -->
+	</header>
+	<div id="container">
+		<section class="seo01 visual" style="background-image: url(./img/background.jpg); background-size: cover;">
+			<h3 class="m-show box-move-tit">Portfolio</h3>
+			<h1>포트폴리오</h1>
+		</section><!-- section .seo01 -->
+		<section class="sec02">
+			<div class="under">
+				<img class="m-show" src="./img/video1.jpg" alt="">
+				<video class="visualvideo" id='mainvideo1' loop muted>
+					<source src="./video/video1.mp4" type="video/mp4">
+				</video>
+			</div>
+			<div class="upper">
+				<i>profile</i>
+				<h2 style="font-size: 9rem">WHO AM I</h2>
+				<div class="cnt" style="height: auto;opacity: 1;">
+					<span>영상을 전공하였던 저는 어느 우연한 기회에 코딩을 접하게 되었습니다. <br> 코드를 작성하면서 논리적인 작성과정에 처음 매력을 느끼게 되어 본격적으로 배워보게 되었습니다. 영상을 전공했던 저는 제가 가진 영상디자인 경험과 코드를 작성할 수 있는 웹퍼블리셔가 되려고 합니다. 발생된 문제를 하나씩 해결해 나가는 것에 성취감을 느끼며 앞으로도 발전해 나가겠습니다.</span>
+				</div>
+			</div>
+		</section><!-- section .sec02 -->
+		<section class="sec03">
+			<div class="under">
+				<img class="m-show" src="./img/video4.jpg" alt="">
+				<video style="float: right;" class="visualvideo" id='mainvideo2' loop muted>
+					<source src="./video/video4.mp4" type="video/mp4">
+				</video>
+			</div>
+			<div class="upper">
+				<i>Education & Experience</i>
+				<h2 id="h2-education" class="notactive">My History is</h2>
+				<div class="cnt">
+					<div id="indigator">
+						<em class="bar"></em>
+						<ul>
+							<li style="margin-top: 0px">
+								<p class="dot"></p>
+								<span class="year">2007</span>
+								<div class="info">
+									<p>고척고등학교 입학 </p>
+									<p>(2007.03 - 2010.02)</p>
+								</div>
+							</li>
+							<li>
+								<p class="dot"></p>
+								<span class="year">2010</span>
+								<div class="info">
+									<p>상명대학교 영화영상학과 입학</p>
+									<p>(2010.03 - 2014.02)</p>
+								</div>
+							</li>
+							<li>
+								<p class="dot"></p>
+								<span class="year">2014</span>
+								<div class="info">
+									<p>성남방송고등학교 담임교사 재직</p>
+									<p>(2014.03 - 2015.02)</p>
+								</div>
+							</li>
+							<li>
+								<p class="dot"></p>
+								<span class="year">2015</span>
+								<div class="info">
+									<p>성남테크노과학고등학교 담임 교사 재직</p>
+									<p>(2015.03 - 2018.02)</p>
+								</div>
+							</li>
+							<li>
+								<p class="dot"></p>
+								<span class="year">2018</span>
+								<div class="info">
+									<p>디지털 컨버젼스(UI/UX엔지니어링, 프론트 앤드)교육 수료</p>
+									<p>(2018.09 - 2019.01)</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section><!-- section .sec03 -->
+		<section class="sec04">
+			<div class="under">
+				<img class="m-show" src="./img/video3.jpg" alt="">
+				<video class="visualvideo" id='mainvideo3' loop muted>
+					<source src="./video/video3.mp4" type="video/mp4">
+				</video>
+			</div>
+			<div class="upper">
+				<i>Skills</i>
+				<h2 id="h2-skills">Be able to do</h2>
+				<div class="cnt">
+					<ul class="barWrap">
+						<li class="bargrop">
+							Graphic
+						</li>
+						<li class="barList">
+							<p class="barTitle">Ps</p>
+							<div class="barGraph Ps">
+								<canvas data-percent="75" data-barColor="#81BBFA" data-barWidth="10" data-time="2" data-interval="0"></canvas>
+								<p class="barText">0</p>
+							</div>
+						</li>
+						<li class="barList">
+							<p class="barTitle">Ai</p>
+							<div class="barGraph Ai">
+								<canvas data-percent="85" data-barColor="#FCA017" data-barWidth="10" data-time="2" data-interval="0"></canvas>
+								<p class="barText">0</p>
+							</div>
+						</li>
+						<li class="barList">
+							<p class="barTitle">Id</p>
+							<div class="barGraph Id">
+								<canvas data-percent="70" data-barColor="#EA3699" data-barWidth="10" data-time="2" data-interval="0"></canvas>
+								<p class="barText">0</p>
+							</div>
+						</li>
+					</ul>
+					<ul class="barWrap">
+						<li class="bargrop">
+							Video
+						</li>
+						<li class="barList">
+							<p class="barTitle">Pr</p>
+							<div class="barGraph Pr">
+								<canvas data-percent="80" data-barColor="#D141F8" data-barWidth="10" data-time="2" data-interval="1000"></canvas>
+								<p class="barText">0</p>
+							</div>
+						</li>
+						<li class="barList">
+							<p class="barTitle">Ae</p>
+							<div class="barGraph Ae">
+								<canvas data-percent="70" data-barColor="#C67EFC" data-barWidth="10" data-time="2" data-interval="1000"></canvas>
+								<p class="barText">0</p>
+							</div>
+						</li>
+					</ul>
+					<ul class="barWrap language">
+						<li class="bargrop">
+							Language
+						</li>
+						<li class="barList">
+							<p class="barTitle">Html</p>
+							<div class="barGraph Html">
+								<canvas data-percent="70" data-barColor="#EC711C" data-barWidth="10" data-time="2" data-interval="2000"></canvas>
+								<p class="barText">0</p>
+							</div>
+						</li>
+						<li class="barList">
+							<p class="barTitle">Css</p>
+							<div class="barGraph Css">
+								<canvas data-percent="65" data-barColor="#E0DA05" data-barWidth="10" data-time="2" data-interval="2000"></canvas>
+								<p class="barText">0</p>
+							</div>
+						</li>
+						<li class="barList">
+							<p class="barTitle">java<br>script</p>
+							<div class="barGraph java">
+								<canvas data-percent="55" data-barColor="#A8CFDA" data-barWidth="10" data-time="2" data-interval="2000"></canvas>
+								<p class="barText">0</p>
+							</div>
+						</li>
+						<li class="barList">
+							<p class="barTitle">jquery</p>
+							<div class="barGraph jquery">
+								<canvas data-percent="60" data-barColor="#5CF6EB" data-barWidth="10" data-time="2" data-interval="2000"></canvas>
+								<p class="barText">0</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section><!-- section .sec04 -->
+		<section class="sec05">
+			<div class="under">
+				<ul class="work-list">
+					<li>
+						<img src="./img/img01-1.jpg" class="gray" alt="">
+						<img src="./img/img01.jpg" class="color" alt="">
+						<a href="./Portfolio/hyundai/index.html" target="_blank"><span class="work-tit">Hyundai</span></a>
+					</li>
+					<li>
+						<img src="./img/img02-1.jpg" class="gray" alt="">
+						<img src="./img/img02.jpg" class="color" alt="">
+						<a href="./Portfolio/coupang/index.html" target="_blank"><span class="work-tit">Coupang</span></a>
+					</li>
+					<li>
+						<img src="./img/img03-1.jpg" class="gray" alt="">
+						<img src="./img/img03.jpg" class="color" alt="">
+						<a href="./Portfolio/ebook/index2.html" target="_blank"><span class="work-tit">교보문고Ebook</span></a>
+					</li>
+					<li>
+						<img src="./img/img04-1.jpg" class="gray" alt="">
+						<img src="./img/img04.jpg" class="color" alt="">
+						<a href="./Portfolio/bodeum/main_index.html" target="_blank"><span class="work-tit">보듬컴퍼니</span></a>
+					</li>
+					<li>
+						<img src="./img/img05-1.jpg" class="gray" alt="">
+						<img src="./img/img05.jpg" class="color" alt="">
+						<a href="./Portfolio/thebodyshop/main_index.html" target="_blank"><span class="work-tit">The body shop</span></a>
+					</li>
+					<li>
+						<img src="./img/img06-1.jpg" class="gray" alt="">
+						<img src="./img/img06.jpg" class="color" alt="">
+						<a href="#" target="_blank"><span class="work-tit">portfolio</span></a>
+					</li>
+				</ul>
+				<ul class="work-link">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+				<ul class="pageDetail">
+					<li>
+						<div class="cnt">
+							<video loop muted>
+								<source src="./video/hyundai.mp4" type="video/mp4">
+							</video>
+							<div class="text">
+								<em>Copy</em>
+								<h4>현대 그룹 홈페이지</h4>
+								<h5>HTML5 및 CSS만을 활용하여 만든 현대 그룹 홈페이지 입니다.</h5>
+								<div>
+									<span class="nametit">제작 시기</span>
+									<span>2018. 09</span>
+								</div>
+								<div>
+									<span class="nametit">담당 업무 및 참여도</span>
+									<span>페이지 제작 100%</span>
+								</div>
+								<div>
+									<span class='nametit'>사용 프로그램 및 언어</span>
+									<span>HTML5, CSS3</span>
+								</div>
+							</div>
+							<a href="./Portfolio/hyundai/index.html" class="more" target="_blank">view project</a>
+						</div>
+					</li>
+					<li>
+						<div class="cnt">
+							<video loop muted>
+								<source src="./video/coupang.mp4" type="video/mp4">
+							</video>
+							<div class="text">
+								<em>Copy</em>
+								<h4>Coupang</h4>
+								<h5>전자 상거래 웹사이트 쿠팡 홈페이지를 HTML과 CSS만을 이용하여 만들었습니다.</h5>
+								<div>
+									<span class="nametit">제작 시기</span>
+									<span>2018. 10</span>
+								</div>
+								<div>
+									<span class="nametit">담당 업무 및 참여도</span>
+									<span>페이지 제작 100%</span>
+								</div>
+								<div>
+									<span class='nametit'>사용 프로그램 및 언어</span>
+									<span>HTML5, CSS3, </span>
+								</div>
+							</div>
+							<a href="./Portfolio/coupang/index.html" class="more" target="_blank">view project</a>
+						</div>
+					</li>
+					<li>
+						<div class="cnt">
+							<video loop muted>
+								<source src="./video/ebook.mp4" type="video/mp4">
+							</video>
+							<div class="text">
+								<em>Copy</em>
+								<h4>교보문고 eBook</h4>
+								<h5>e세상의 모든 전자책을 모토로 삼고 있는 교보문고eBook 홈페이지를 HTML과 CSS를 이용하여 작업하였습니다.</h5>
+								<div>
+									<span class="nametit">제작 시기</span>
+									<span>2018. 11</span>
+								</div>
+								<div>
+									<span class="nametit">담당 업무 및 참여도</span>
+									<span>페이지 제작 100%</span>
+								</div>
+								<div>
+									<span class='nametit'>사용 프로그램 및 언어</span>
+									<span>HTML5, CSS3</span>
+								</div>
+							</div>
+							<a href="./Portfolio/ebook/index2.html" class="more" target="_blank">view project</a>
+						</div>
+					</li>
+					<li>
+						<div class="cnt">
+							<video loop muted>
+								<source src="./video/bodeum.mp4" type="video/mp4">
+							</video>
+							<div class="text">
+								<em>Renewal</em>
+								<h4>보듬 컴퍼니</h4>
+								<h5>반려견 교육 회사인 보듬 컴퍼니 홈페이지 리뉴얼 작업입니다. 교육프로그램에 대한 정보를 쉽게 찾을 수 있도록 사용자경험을 기반으로 디자인하여 제작 하였습니다.</h5>
+								<div>
+									<span class="nametit">제작 시기</span>
+									<span>2018. 11</span>
+								</div>
+								<div>
+									<span class="nametit">담당 업무 및 참여도</span>
+									<span>디자인 기획 및 페이지 제작 100%</span>
+								</div>
+								<div>
+									<span class='nametit'>사용 프로그램 및 언어</span>
+									<span>포토샵, 일러스트, HTML5, CSS3, Jquery</span>
+								</div>
+							</div>
+							<a href="./Portfolio/bodeum/main_index.html" class="more" target="_blank">view project</a>
+						</div>
+					</li>
+					<li>
+						<div class="cnt">
+							<video loop muted>
+								<source src="./video/thebodyshop.mp4" type="video/mp4">
+							</video>
+							<div class="text">
+								<em>Responsive, Copy</em>
+								<h4>The Body Shop</h4>
+								<h5>The Body Shop은 영국의 브랜드로 그 홈페이지를 HTML, CSS, JAVA script, jquery를 이용하여 반응형 홈페이지로 제작하였습니다.</h5>
+								<div>
+									<span class="nametit">제작 시기</span>
+									<span>2019. 01</span>
+								</div>
+								<div>
+									<span class="nametit">담당 업무 및 참여도</span>
+									<span>페이지 제작 100%</span>
+								</div>
+								<div>
+									<span class='nametit'>사용 프로그램 및 언어</span>
+									<span>HTML5, CSS3, Jquery, JAVA script</span>
+								</div>
+							</div>
+							<a href="./Portfolio/thebodyshop/main_index.html" class="more" target="_blank">view project</a>
+						</div>
+					</li>
+					<li>
+						<div class="cnt">
+							<img src="./img/img06.jpg" class="color" alt="">
+							<div class="text">
+								<em></em>
+								<h4>포트폴리오</h4>
+								<h5>웹 디자인 및 페이지 제작 작품을 전시하기 위한 포트폴리오 홈페이지를 제작 하였습니다.</h5>
+								<div>
+									<span class="nametit">제작 시기</span>
+									<span>2019. 01</span>
+								</div>
+								<div>
+									<span class="nametit">담당 업무 및 참여도</span>
+									<span>디자인 기획 및 페이지 제작 100%</span>
+								</div>
+								<div>
+									<span class='nametit'>사용 프로그램 및 언어</span>
+									<span>포토샵, 일러스트, HTML5, CSS3, JAVA script, Jquery</span>
+								</div>
+							</div>
+							<a href="#" class="more" target="_blank">view project</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="upper">
+				<i>works</i>
+				<h2 id="worktit" style="" >Hyundai</h2>
+			</div>
+		</section><!-- section .sec05 -->
+		<section class="footer">
+			<div class="marquee">
+				<div>
+					<span>WEB PUBLISHING<br> & <br>Front-end web development <br></span><br><br>
+					<span>WEB PUBLISHING<br> & <br>Front-end web development</span>
+				</div>
+			</div>
+			<div class="copy">Created by Kim jin young ⓒ 2019. Kim jin young all rights reserved.</div>
+		</section><!-- section .footer -->
+		<div class="frm">
+			<div id='box'></div>
+		</div><!-- .frm -->
+   	</div><!-- container -->
+   	<footer></footer>
+</div><!-- wrap -->
+   <script type="text/javascript" src="./js/main.js"></script>
+</body>
+</html>

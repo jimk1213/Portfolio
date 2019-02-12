@@ -1,0 +1,26 @@
+/*RESET - CSS를 리셋*/
+*,:before,:after {margin: 0; padding: 0; color: inherit; text-decoration: inherit; font-style: inherit; border: 0px solid transparent; outline: 0 solid transparent; background: transparent none center center no-repeat; box-sizing: border-box;}
+ul, ol, dl {list-style: none;}
+table {table-layout: fixed;}
+h1, h2, h3, h4, h5, h6,p {font-size: inherit; font-weight: inherit;font-size: 14px; }
+label, button, input[type="text"],input[type="password"],input[type="time"],input[type="date"],input[type="email"],input[type="tel"],input[type="number"],input[type="file"],input[type="radio"],input[type="search"]{width:100%; vertical-align:middle; color:#000; border:1px solid #000;border: 0; cursor: pointer;}
+strong {font-weight:normal}
+button, input, optgroup, select, textarea {font: inherit; margin: 0;}
+img{vertical-align:top}
+address, caption, em, var{font-style:normal;font-weight:normal;}
+input, textarea, select{letter-spacing:normal;}
+
+/*CLASS - 내가 쓸 CLASS를 미리 작성*/
+.clearfix:after {content: ""; display: block; clear: both;}
+.ellipsis {text-overflow: ellipsis; overflow: hidden; white-space: nowrap;}
+.hidden {display: none; width: 0; height: 0; visibility: hidden; opacity: 0;}
+.bold {font-weight: 700;}
+
+/*GLOBAL - 홈페이지 전역에 들어갈 공통된 CSS*/
+[type=checkbox], [type=radio] {display: none;}
+.inner {display: block;max-width: 1020px; position: relative; margin: auto; height: 100%;}
+.inner:after {content: ""; display: block; clear: both;}
+
+body {color:#000; font-size:14px; font-family: 'Gothic A1', sans-serif;}
+#wrap {color: #111; font-family: 'Gothic A1', "맑은 고딕", "돋움", Dotum, Helvetica, Arial, sans-serif; line-height: 1.58571; background: transparent;}
+

@@ -1,0 +1,228 @@
+
+/* HEADER - 헤더에 들어갈 CSS */
+header {position: fixed;top: 0;left: 0;right: 0;bottom: 85%;padding: 50px 0px;background: url(../img/bg_gnb2.png)0 0 repeat-x; z-index: 11;background-size: auto 100%;transition: all 500ms linear}
+header.fot {bottom: 0%;}
+header ul {overflow: hidden; padding-left: 50%;}
+header ul li {float: left; width: 33.3%;height: 100%; text-align: right;}
+header ul li a {display: inline-block; line-height: 30px;font-weight: bolder;color: #555}
+
+
+/* Footer - 푸터에 들어갈 CSS */
+footer {position: fixed;bottom: 0;left: 0;right: 0;height: 100px;background: url(../img/bg_gnb3.png)0 0 repeat-x; z-index: 11;background-size: auto 100%;transition: all 500ms linear}
+
+
+/* Container - 컨테이너에 들어갈 CSS */
+section {position: relative;padding: 80px 100px; transition:0.6s;}
+section h1 {position: relative; background-image: url(../img/tit3.png);background-position: center; background-repeat: no-repeat;background-attachment: fixed; text-align: center;height: 100%;text-indent: -9999px;z-index: 20;}
+section .under {position: relative; overflow: hidden;height: 100%;padding: 20px;}
+section .under video {height: 154%;transition:0.5s;}
+section .upper {position: absolute;top: 50%; left: 50%;text-align: center;transform: translate(-50%, -50%);transition: 0.4s;z-index: 10;}
+section .upper.active {z-index: 15;}
+section .upper h2 {position: relative;font-size: 6.5rem;font-weight: 900;white-space: nowrap; cursor: pointer;color: #333; transition: 0.4s;}
+section .upper h2:hover {color: #000}
+section .upper i {font-size: 1.5rem;font-weight: 700;color: #7a5f50;text-shadow: 1px 1px 10px #555;letter-spacing: 4px;}
+section .upper .cnt {height: 0;opacity: 0;transition:opacity 0.01s 0s}
+section.rightA .upper h2 {font-size: 9rem;}
+section.rightA .upper .cnt {opacity: 1;transition:opacity 0.6s 0.4s}
+section.leftA .upper h2 {font-size: 8rem;line-height: 1.2;white-space: nowrap;text-align: right;}
+section.leftA .upper .cnt {opacity: 1;transition:opacity 0.6s 0.4s}
+section.footer {position: relative; text-align: center;z-index: 12}
+section.footer .copy {margin-top: 150px;font-weight: bolder;}
+section.footer .marquee {position: relative; height: 300px; width: 100%; overflow: hidden;}
+section.footer .marquee:after {content: ''; position: absolute;top: 0;right: 0;bottom: 50%;left: 0;height: 100%;background: url(../img/bg_gnb2.png)0 0 repeat-x;background-size: auto 100%;}
+section.footer .marquee div {position: absolute; overflow: hidden; display: block; animation: marquee 5s linear infinite;}
+section.footer .marquee span {width: 50%;text-transform: uppercase;font-size: 6.77rem;text-align: center;font-weight: 900;color: #999;line-height: 1.2;}
+
+/* ToggleClass - CSS*/
+   .frm.rightA {padding : 120px 100px 120px 50% !important;}
+   .frm.leftA {padding : 120px 40% 120px 100px !important;}
+   section.rightA {padding : 50px 100px 50px 50% !important;}
+   section.leftA {padding : 50px 40% 50px 100px !important;}
+   section.rightA .under video,
+   section.leftA .under video {height: 100%;width: inherit;}
+   section.rightA .upper {position: absolute;top: 10%; left: 10%;transform: translate(0,0);}
+   section.leftA .upper {position: absolute;top: 10%; right: 10%;left: 40%; transform: translate(0,0);}
+
+/*section.sec03 .upper .cnt ~~*/
+   #indigator {position: relative;height: 350px;text-align: left;}
+   #indigator:before {content: "";position: absolute;top: 5px;left: 4px;background-color: #eee;width: 2px;height: 100%;}
+   #indigator .bar {position: absolute;top: 6px;left: 4px; display: block;width: 2px;height: 0%;background: linear-gradient( 0deg, red, #eee );animation: indigatior 10s infinite}
+   #indigator ul {height: 100%;}
+   #indigator ul li {position: absolute;}
+   #indigator ul li:nth-child(1) {top: 0;}
+   #indigator ul li:nth-child(2) {top: 25%;}
+   #indigator ul li:nth-child(3) {top: 50%;}
+   #indigator ul li:nth-child(4) {top: 75%;}
+   #indigator ul li:nth-child(5) {top: 100%;}
+   #indigator ul li:nth-child(1) .dot {animation-delay: 0s;}
+   #indigator ul li:nth-child(2) .dot {animation-delay: 2s;}
+   #indigator ul li:nth-child(3) .dot {animation-delay: 4s;}
+   #indigator ul li:nth-child(4) .dot {animation-delay: 6s;}
+   #indigator ul li:nth-child(5) .dot {animation-delay: 8s;}
+   #indigator ul li .dot {display: inline-block;margin-top: 5px; width: 10px;height: 10px;background-color: #eee;border-radius: 50%; animation: indigatiorDot 10s infinite;vertical-align: top;}
+   #indigator ul li .year {vertical-align: top;font-weight: bolder;}
+   #indigator ul li .info {display: inline-block; text-align: left;margin-left: 50px;}
+   #indigator ul li .info p:nth-of-type(1){}
+   #indigator ul li .info p:nth-of-type(2){font-size: 0.8rem;}
+
+/*section.sec04~~*/
+section.sec04 .barWrap {overflow: hidden;margin-bottom: 30px;}
+section.sec04 .barWrap .bargrop {text-align: right;font-size: 1.4rem;font-weight: 600;color: #444;margin-bottom: 15px;}
+section.sec04 .barWrap .barList {position: relative;margin-left: 30px;width: 80px;float: right;}
+section.sec04 .barWrap .barGraph {position: relative; height: 0; padding-top: 100%;}
+section.sec04 .barWrap .barGraph:before {content: "";position: absolute;top: 1px;left: 1px;right: 1px;bottom: 1px;border: 8px solid #eee;border-radius: 50%;background-color:#fff;}
+section.sec04 .barWrap .barGraph.Ps:before {background-color: #39337B;}
+section.sec04 .barWrap .barGraph.Ai:before {background-color: #5E4B27;}
+section.sec04 .barWrap .barGraph.Id:before {background-color: #5D2D42;}
+section.sec04 .barWrap .barGraph.Pr:before {background-color: #4F3656;}
+section.sec04 .barWrap .barGraph.Ae:before {background-color: #383562;}
+section.sec04 .barWrap .barGraph.Html:before {background-color: #64361F;}
+section.sec04 .barWrap .barGraph.Css:before {background-color: #484728;}
+section.sec04 .barWrap .barGraph.java:before {background-color: #2E3045;}
+section.sec04 .barWrap .barGraph.jquery:before {background-color: #3C4C66;}
+section.sec04 .barWrap .barTitle {position: absolute; top: 50%; left: 50%;transform: translate(-50%, -50%);font-weight: bolder;font-size: 2.2rem;color: transparent;opacity: 1;transition: 0.4s ;z-index: 1;}
+section.sec04 .barWrap.language .barTitle {font-size: 1.2rem;}
+section.sec04 .barWrap .barText {position: absolute; top: 52%; left: 50%;transform: translate(-50%, -50%);opacity: 0; font-weight: bolder;font-size: 1.8rem;transition: 0.4s;}
+section.sec04 .barWrap .barList:hover .barText {opacity: 1;}
+section.sec04 .barWrap .barList:hover .barText:after {content: "%";font-size: 1rem;}
+section.sec04 .barWrap .barList:hover .barTitle {opacity: 0;}
+section.sec04 .barWrap canvas {position: absolute; top: 0; left: 0;}
+
+/*section.sec05~~*/
+section.sec05 .under .work-link {position: absolute;left: 20px;right: 20px;top: 20px;bottom: 20px;z-index: 25;}
+section.sec05 .under .work-link li {float: left;width: 50%;height: 33.333%;}
+section.sec05 .under .work-link li a {display: block;height: 100%;}
+section.sec05 .under .work-list {overflow: hidden;height: 100%;}
+section.sec05 .under .work-list li {position: relative;overflow: hidden; float: left;width: 50%;height: 33.333%;}
+section.sec05 .under .work-list li img{position: absolute;top: 0; display: block;width: 100%;}
+section.sec05 .under .work-list li img:nth-child(2){z-index: -1;transform: scale(1) rotate(0.0deg);transition: transform 3s 0.1s}
+section.sec05 .under .work-list li img.hover{z-index: 1; transform: scale(1.04) rotate(0.01deg)}
+section.sec05 .under .pageDetail li{display: none; position: fixed;top: 0;left: 0;right: 0;bottom: 0;padding : 5% 33%;background-color: rgba(0,0,0,0.7);z-index: 25;}
+section.sec05 .under .pageDetail li.showli{display: block;}
+section.sec05 .under .pageDetail li .cnt {position: relative; display: none;width: 100%;height: 100%;background-color: #fff;border: 3px solid #ddd;}
+section.sec05 .under .pageDetail li .cnt.show {display: block;}
+section.sec05 .under .pageDetail li .cnt video {display: block;width: 100%;height: auto;border-bottom: 1px solid #ddd;}
+section.sec05 .under .pageDetail li .cnt img {display: block;width: 100%;height: 37%; border-bottom: 1px solid #ddd;}
+section.sec05 .under .pageDetail li .cnt .text {overflow: hidden; padding: 20px 30px;color: #555 }
+section.sec05 .under .pageDetail li .cnt .text em {font-size: 8px;color:tan;}
+section.sec05 .under .pageDetail li .cnt .text h4 {font-size: 2rem;font-weight: 900;}
+section.sec05 .under .pageDetail li .cnt .text h5 {font-size: 1rem; margin-bottom: 20px;}
+section.sec05 .under .pageDetail li .cnt .text div {float: left; margin-bottom: 20px;width: 50%;}
+section.sec05 .under .pageDetail li .cnt .text div span {display: block;margin-top: 12px;}
+section.sec05 .under .pageDetail li .cnt .text div span.nametit {font-size: 1rem; font-weight: 600;width: 60%;border-bottom: 1px solid #ddd;}
+section.sec05 .under .pageDetail li .cnt .more {position: absolute; left: 50%; bottom: 30px; transform: translateX(-50%); display: block; height: 50px;width: 35%;background-color: #ddd;text-align: center;line-height: 50px;text-transform: uppercase;font-weight: 700;color: #333;}
+section.sec05 .under .pageDetail li .cnt .more:hover {background-color: #d9524a;color: #fff;}
+section.sec05 .upper #worktit {font-size: 5rem;}
+
+.frm {position: fixed;top: 0px;left: 0;right: 0;bottom: 0;z-index: 10;transition:all 0.6s}
+#box {position: relative;top: 50%;left: 50%;border: 20px solid #d9524a;width: 10%;transform: translate(-50%, -50%);transition: all 500ms linear, transform 500ms ease, top 500ms cubic-bezier(0, 0, 0.2, 1);box-shadow: 25px 25px 25px rgba(46, 46, 49, .3);opacity: 1;}
+#box.fot {top: -50%;opacity: 0;}
+#box:after {content: '';position: absolute;top: 0;right: 0;left: 0;bottom: 0; background-color: rgba(255,255,255,0.1);}
+
+/*테블릿 & 스마트폰 전용*/
+section.seo01 h3.box-move-tit {color: #333;text-shadow: 0 20px 25px #2e2e31, 0 40px 60px #2e2e31; font-size: 5rem; font-weight: 900; text-transform: uppercase; letter-spacing: 10px; margin: 0; position: absolute; top: 50%; left: 50%; transform: translateX(-50%) translateY(-50%);}
+section.seo01 h3.box-move-tit:before,
+section.seo01 h3.box-move-tit:after {content: '';padding: .9em .4em;position: absolute;left: 50%;width: 100%;top: 50%;display: block;border: 15px solid red;transform: translateX(-50%) translateY(-50%) rotate(0deg);animation: 10s infinite alternate ease-in-out tipsy;}
+section.seo01 h3.box-move-tit:before {border-color: #d9524a #d9524a rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);z-index: -1;}
+section.seo01 h3.box-move-tit:after {border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #d9524a #d9524a;box-shadow: 25px 25px 25px rgba(46, 46, 49, .8);}
+.m-show {display: none;}
+
+
+
+/* KEYFRAMES - css3의 animation 속성이 사용하는 @Keyframe */
+   @keyframes tipsy {
+      0% {transform: translateX(-50%) translateY(-50%) rotate(0deg)}
+      100% {transform: translateX(-50%) translateY(-50%) rotate(360deg)}
+   }
+
+   @keyframes indigatior {
+      0% {height: 0%;}
+      10% {height: 0%;}
+      20% {height: 25%;}
+      30% {height: 25%;}
+      40% {height: 50%;}
+      50% {height: 50%;}
+      60% {height: 75%;}
+      70% {height: 75%;}
+      80% {height: 100%;}
+      100% {height: 100%;}
+   }
+
+   @keyframes indigatiorDot {
+      5% {background-color: #ddd;}
+      12% {background-color: red;}
+   }
+
+   @keyframes indigatiortext {
+      5% {opacity: 0;}
+      12% {opacity: 1;}
+      80% {opacity: 1;}
+   }
+
+   @keyframes marquee {
+      0% { top: 0; }
+      100% { top: -200%;}
+   }
+
+/* MEDIAQUERY - CSS */
+
+   @media screen and (max-width: 1380px){
+      section .under video{height: 100%;width: inherit;}
+      section:nth-of-child(3) .under video {float: right}
+   }
+
+   @media screen and (max-width: 1000px){/*테블릿 사이즈*/
+      
+      html{font-size: 14px}
+      .m-show {display: block;}
+      .frm{display: none;}
+      video {display: none;}
+      section {padding:80px 0;}
+      section.rightA .upper {text-align: center;}
+      section.rightA .upper h2 {font-size: 6rem;}
+      section.leftA .upper {left: 10%; text-align: center;}
+      section.leftA .upper h2 {font-size: 6rem;margin-bottom: 10%;}
+      section.seo01 {height: 700px;padding: 0px;}
+      section.seo01 h1 {display: none;}
+      section.sec05 {padding-top: 150px}
+      section.sec05 .under {border: 0px;}
+      section.sec05 .under .work-link {display: none;}
+      section.sec05 .under .pageDetail {display: none;}
+      section.sec05 .under .work-list {}
+      section.sec05 .under .work-list li{width: 50%;border: 1px solid #eee;}
+      section.sec05 .under .work-list li .gray{opacity: 0.6}
+      section.sec05 .under .work-list li .work-tit{position: relative;z-index: 1; display: block;padding: 25% 0;text-align: center;font-size: 2.5rem;font-weight: 900;background-color: rgba(0,0,0,0.5);color: #fff;text-shadow: 4px 5px 1px #403f3f;}
+      section.sec05 .upper {top:8%;}
+      section.footer {padding: 0 0 80px 0;}
+      section.footer .copy {margin-top: 0;}
+      section h2{white-space: nowrap;}
+      section .under {padding:0;border: 20px solid #d9524a;}
+
+
+   @media screen and (max-width: 481px){/*Mobile Size*/
+      html{font-size: 8px }
+      section {padding: 0 0;}
+      section.rightA .upper {left: 10px;right: 0;}
+      section.leftA .upper {top: 5%;left: 20px;right: 20px;}
+      section.sec02 .under {border: 20px solid #d9524a;}
+      section.sec03.rightA {padding: 0px !important;height: 650px}
+      section.sec03.rightA img{height: 100%;}
+      section.sec04.leftA {padding: 0px !important;}
+      section.sec04.leftA img{height: 100%;}
+      section.seo01 h3.box-move-tit {letter-spacing: 2px !important;}
+      section.sec05 .upper {top:6%;}
+      section.sec05 .under .work-list li{width: 100%;border: 1px solid #eee;}
+      section.footer .copy {margin-top: 50px;}
+      section .under {border: 0;}
+      section .upper .cnt {height: auto;}
+      section .upper h2 {font-size: 6rem !important;}
+      section .barWrap .bargrop {font-size: 2rem;}
+      section .barWrap .barList{margin-left: 15px;width: 85px;}
+      #indigator ul li .info p:nth-of-type(1) {font-size: 1.6rem;width: 220px;}
+      #indigator ul li .info p:nth-of-type(2) {font-size: 1.5rem;}
+   }
+/* 추후 nav 사용하게 될 경우 */
+/*
+nav {position: relative;z-index: 30; text-align: right;}
+nav i {margin: 5px 0;padding: 0px 20px;display: block; color:#000;font-size: 0.8rem;cursor: pointer;}
+nav i.active {padding: 0px 20px;background-color: #d9524a;color:#fff;font-size: 1.2rem;}*/
