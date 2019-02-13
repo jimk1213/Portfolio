@@ -97,7 +97,7 @@ section.sec05 .under .work-list li {position: relative;overflow: hidden; float: 
 section.sec05 .under .work-list li img{position: absolute;top: 0; display: block;width: 100%;}
 section.sec05 .under .work-list li img:nth-child(2){z-index: -1;transform: scale(1) rotate(0.0deg);transition: transform 3s 0.1s}
 section.sec05 .under .work-list li img.hover{z-index: 1; transform: scale(1.04) rotate(0.01deg)}
-section.sec05 .under .pageDetail li{display: none; position: fixed;top: 0;left: 0;right: 0;bottom: 0;padding : 15% 33%;background-color: rgba(0,0,0,0.7);z-index: 25;}
+section.sec05 .under .pageDetail li{display: none; position: fixed;top: 0;left: 0;right: 0;bottom: 0;padding : 5% 33%;background-color: rgba(0,0,0,0.7);z-index: 25;}
 section.sec05 .under .pageDetail li.showli{display: block;}
 section.sec05 .under .pageDetail li .cnt {position: relative; display: none;width: 100%;height: 100%;background-color: #fff;border: 3px solid #ddd;}
 section.sec05 .under .pageDetail li .cnt.show {display: block;}
@@ -197,6 +197,7 @@ section.seo01 h3.box-move-tit:after {border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0
       section.footer .copy {margin-top: 0;}
       section h2{white-space: nowrap;}
       section .under {padding:0;border: 20px solid #d9524a;}
+      section.sec05 .upper #worktit {display: none;}
 
 
    @media screen and (max-width: 481px){/*Mobile Size*/
