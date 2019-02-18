@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,user-scalable=yes,initial-scale=1.0,maximum-scale=2.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>THEBODYSHOP</title>
+	<!-- font -->
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,500,700,900|Open+Sans:400,400i,600,600i,700,700i,800" rel="stylesheet">
+	<!-- css -->
+	<link rel="stylesheet" href="./lib/owlcarousel/owl.carousel.css">
+	<link rel="stylesheet" href="./lib/owlcarousel/owl.theme.default.css">
+	<link rel="stylesheet" href="./css/common.css">
+	<link rel="stylesheet" href="./css/main.css">
+	<!-- JS -->
+	<script type="text/javascript" src="./lib/jquery/jQuery-3.3.1.js"></script>
+  	<script src="./lib/owlcarousel/owl.carousel.js"></script>
+</head>
+<body>
+	<div id="wrap">
+		<div id="pop">
+			<div class="popwrap">
+				<img src="./img/pop.png" alt="배송지연 안내문">
+				<div class="info">
+					<label>
+						<input type="checkbox" name="하루동안 보지 않기">
+						<span>오늘 하루 이창을 열지 않음</span>
+					</label>
+					<span id="popclose">닫기</span>
+				</div>
+			</div>
+		</div>
+		<div class="inner">
+			<header class="PC">
+				<div id="headerUtil">
+					<div class="etc-wrap">
+						<a href="#" class="place">
+							<i style="background-image: url(./img/body-shop-icons-thick_map.svg);"></i>
+							<span>매장안내</span></a>
+						<a href="#" class="card">
+							<i style="background-image: url(./img/body-shop-icons-thick_card.jpg);"></i>
+							<span>LYB멤버십</span>
+						</a>
+					</div><!-- etc-wrap -->
+					<div class="global-wrap">
+						<div class="article member">
+							<a href="#">로그인</a>
+							<a href="#">회원가입</a>
+						</div> 
+						<div class="article function">
+							<a href="#" class="my-btn">
+								<img src="./img/body-shop-icons-thick_sign_in.svg">
+							</a>
+							<a href="#" class="view-btn">
+								<img src="./img/body-shop-icons-thick_view.jpg">
+								<strong class="count">0</strong>
+							</a>
+							<a href="#" class="heart-btn">
+								<img src="./img/body-shop-icons-thick_wishlist.svg">
+							</a>
+							<a href="#" class="cart-btn">
+								<img src="./img/body-shop-icons-thick_bag.svg">
+								<strong class="count">0</strong>
+							</a>
+						</div> 
+					</div><!-- global-wrap -->
+					<div class="logo">
+						<a href="#"><img src="./img/tbs-logo.svg" alt="THE BODY SHOP"></a>
+					</div>
+				</div><!-- headerUtil -->
+				<div id="headerNav">
+					<ul class="Nav">
+						<li>
+							<a href="./sub01_index.html">NEWS & EVENT</a>
+							<div class="subcategory-wrap">
+								<div class="subcategory">
+									<ul class="subcate">
+										<li><a href="./sub01_detail01_index.html">NEW IN</a></li>
+									</ul>
+									<ul class="subcate">
+										<li><a href="#">BEST Seulrs</a></li>
+									</ul>
+									<ul class="subcate">
+										<li style="margin-bottom: 0px"><a href="#" >EVENT</a></li>
+										<li class="subcate-item"><a href="#">진행 중인 이벤트</a></li>
+										<li class="subcate-item"><a href="#">지난 이벤트</a></li>
+										<li class="subcate-item"><a href="#">당첨자 발표</a></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="#">#더바디샵_선물하기</a>
+							<div class="subcategory-wrap">
+								<div class="subcategory">
+									<ul class="subcate">
+										<li><a href="#">★웨딩선물세트</a></li>
+										<li><a href="#">1만원대 선물세트</a></li>
+										<li><a href="#">선물세트 전체보기</a></li>
+									</ul>
+									<ul class="subcate">
+										<li><a href="#">★화이트 머스크 선물세트</a></li>
+										<li><a href="#">2만원대 선물세트</a></li>
+										<li><a href="#">♥연말 선물</a></li>
+									</ul>
+									<ul class="subcate">
+										<li><a href="#">★브리티쉬 로즈 선물세트 </a></li>
+										<li><a href="#">3만원대 이상 선물세트 </a></li>
+									</ul>
+									<ul class="subcateimg">
+										<li><img src="./img/d9fb0598-a7dc-4a4a-9476-336441b1dfd9.jpg"></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="#">SKIN CARE</a>
+							<div class="subcategory-wrap">
+								<div class="subcategory">
+									<ul class="subcate">
+										<li><a href="#">클렌저</a></li>
+										<li><a href="#">토너&미스트</a></li>
+										<li><a href="#">아이케어</a></li>
+										<li><a href="#">화장솜&액세서리</a></li>
+									</ul>
+									<ul class="subcate">
+										<li><a href="#">스크럽&마스크</a></li>
+										<li><a href="#">세럼</a></li>
+										<li><a href="#">선케어</a></li>
+										<li><a href="#">남성스킨케어</a></li>
+									</ul>
+									<ul class="subcate">
+										<li><a href="#">페이스오일</a></li>
+										<li><a href="#">모이스처라이저</a></li>
+										<li><a href="#">립케어</a></li>
+										<li><a href="#">기획세트</a></li>
+									</ul>
+									<ul class="subcateimg">
+										<li><img src="./img/0e28d791-0ccd-41c5-82fc-95a939a113d8.jpg"></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="#">BATH & BODY</a>
+							<div class="subcategory-wrap">
+								<div class="subcategory">
+									<ul class="subcate">
+										<li><a href="#">대용량바디케어</a></li>
+										<li><a href="#">바디모이스처라이저</a></li>
+										<li><a href="#">데오도란트</a></li>
+										<li><a href="#">비누</a></li>
+										<li><a href="#">트래블</a></li>
+									</ul>
+									<ul class="subcate">
+										<li><a href="#">배쓰&샤워</a></li>
+										<li><a href="#">바디오일</a></li>
+										<li><a href="#">풋케어</a></li>
+										<li><a href="#">액세서리</a></li>
+										<li><a href="#">에센셜</a></li>
+									</ul>
+									<ul class="subcate">
+										<li><a href="#">바디스크럽</a></li>
+										<li><a href="#">바디미스트</a></li>
+										<li><a href="#">핸드케어</a></li>
+										<li><a href="#">기획세트</a></li>
+									</ul>
+									<ul class="subcateimg">
+										<li><img src="./img/5ac400f4-12c1-4c12-b2c0-4f8567391180.jpg"></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="#">MEN'S</a>
+							<div class="subcategory-wrap">
+								<div class="subcategory">
+									<ul class="subcate">
+										<li><a href="#">클렌저&쉐이브</a></li>
+										<li><a href="#">선케어</a></li>
+									</ul>
+									<ul class="subcate">
+										<li><a href="#">스크럽&마스크</a></li>
+										<li><a href="#">향수&바디미스트</a></li>
+									</ul>
+									<ul class="subcate">
+										<li><a href="#">모이스처라이저</a></li>
+									</ul>
+									<ul class="subcateimg">
+										<li><img src="./img/2ddc6b53-b6b0-4788-82c3-45bb0002c901.jpg"></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="#">MAKE UP</a>
+							<div class="subcategory-wrap">
+								<div class="subcategory">
+									<ul class="subcate">
+										<li><a href="#">파우더&팩트&쿠션</a></li>
+										<li><a href="#">스킨&메이크업브러쉬</a></li>								
+									</ul>
+									<ul class="subcate">
+										<li><a href="#">아이</a></li>
+										<li><a href="#">액세서리</a></li>								
+									</ul>
+									<ul class="subcate">
+										<li><a href="#">립</a></li>
+									</ul>
+									<ul class="subcateimg">
+										<li><img src="./img/815926ef-64d3-4c60-b31d-3b9072844b0e.jpg"></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="#">FRAGRANCE</a>
+							<div class="subcategory-wrap">
+								<div class="subcategory">
+									<ul class="subcate">
+										<li><a href="#">FOR HIM</a></li>
+									</ul>
+									<ul class="subcate">
+										<li><a href="#">FOR HER</a></li>
+									</ul>
+									<ul class="subcate">
+										<li><a href="#">FOR EVERYONE</a></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="#">HAIR</a>
+							<div class="subcategory-wrap">
+								<div class="subcategory">
+									<ul class="subcate">
+										<li><a href="#">샴푸&스크럽</a></li>
+										<li><a href="#">액세서리</a></li>
+									</ul>
+									<ul class="subcate">
+										<li><a href="#">컨디셔너&트리트먼트</a></li>
+									</ul>
+									<ul class="subcate">
+										<li><a href="#">헤어오일&스타일링</a></li>
+									</ul>
+									<ul class="subcateimg">
+										<li><img src="./img/c2cda977-328d-4cd0-9793-d945ef58e905.jpg"></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="#">SHOP BY RANGE</a>
+							<div class="subcategory-wrap">
+								<div class="subcategory">
+									<ul class="subcate">
+										<li><a href="#">드롭스 오브 유스 </a></li>
+										<li><a href="#">오일 오브 라이프 </a></li>
+										<li><a href="#">화이트 머스크 </a></li>
+										<li><a href="#">티트리 </a></li>
+										<li><a href="#">진저&그린티&바나나</a></li>
+										<li><a href="#">루트 오브 스트렝스</a></li>
+										<li><a href="#">모링가</a></li>
+										<li><a href="#">화이트 머스크 로</a></li>
+										<li><a href="#">핑크 그레이프후룻</a></li>
+									</ul>
+									<ul class="subcate">
+										<li><a href="#">슈퍼푸드 마스크</a></li>
+										<li><a href="#">재패니즈 체리블라썸</a></li>
+										<li><a href="#">브리티쉬 로즈 </a></li>
+										<li><a href="#">스파 오브 더 월드</a></li>
+										<li><a href="#">드롭스 오브 라이트</a></li>
+										<li><a href="#">아몬드 밀크 & 허니</a></li>
+										<li><a href="#">체리 블라썸</a></li>
+										<li><a href="#">카모마일</a></li>
+									</ul>
+									<ul class="subcate">
+										<li><a href="#">블랙 머스크</a></li>
+										<li><a href="#">비타민</a></li>
+										<li><a href="#">페퍼민트</a></li>
+										<li><a href="#">망고</a></li>
+										<li><a href="#">씨위드</a></li>
+										<li><a href="#">알로에</a></li>
+										<li><a href="#">햄프</a></li>
+										<li><a href="#">스트로베리</a></li>
+									</ul>
+									<ul class="subcateimg">
+										<li><img src="./img/c20b81b1-cc1a-41db-a1d7-512834e3b57f.jpg"></li>
+										<li><img src="./img/fa8e2a18-dd33-48ec-8f9e-4640688e2c3a.jpg"></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="#">#SALE</a>
+							<div class="subcategory-wrap">
+								<div class="subcategory">
+									<ul class="subcate">
+										<li><a href="#">바디&헤어&향수</a></li>
+										<li><a href="#">기간한정 세일</a></li>
+									</ul>
+									<ul class="subcate">
+										<li><a href="#">스킨케어&메이크업 </a></li>
+									</ul>
+									<ul class="subcate">
+										<li><a href="#">액세서리</a></li>
+									</ul>
+									<ul class="subcateimg">
+										<li><img src="./img/d8723975-8e5b-45eb-8eed-e7bece1f3616.jpg"></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+					</ul>
+					<input type="text" value="검색어를 입력하세요">
+				</div>
+				<div class="delivery-msg-desktop">
+					<a href="#">회원분들을 위한 특별 할인 혜택 | 할인쿠폰, 지금 다운 받으세요!</a>
+				</div>
+			</header>
+			<header class="mobile">
+				<ul class="m-hd-top">
+					<li><i class="btn hamburger"><img src="./img/body-shop-icons-thick_hamburger.svg"></i></li>
+					<li><a href="#"><i class="btn search"><img src="./img/body-shop-icons-thick_spyglass.svg"></i></a></li>
+					<li class="logo"><a href="#"><i class="btn logo"><img src="./img/tbs-logo.svg"></i></a></li>
+					<li><a href="#"><i class="btn view"><img src="./img/body-shop-icons-thick_view.jpg" style="width: 26px;"></i></a></li>
+					<li><a href="#"><i class="btn cart"><img src="./img/body-shop-icons-thick_bag.svg"></i></a></li>
+				</ul>
+				<div class="delivery-msg-desktop">
+					<a href="#">회원분들을 위한 특별 할인 혜택 | 할인쿠폰, 지금 다운 받으세요!</a>
+				</div>
+				<div id="hamburger">
+					<h3>
+						<img src="./img/tbs-logo.svg" style="width: 152px;">
+						<div class="close"><img src="./img/icon-close.svg"></div>
+					</h3>
+					<ul>
+						<li><a href="./sub01_index.html">NEWS & EVENT <img src="./img/icon-arrow-right.svg"></a></li>
+						<li><a href="#">#더바디샵_선물하기 <img src="./img/icon-arrow-right.svg"></a></li>
+						<li><a href="#">SKIN CARE <img src="./img/icon-arrow-right.svg"></a></li>
+						<li><a href="#">BATH & BODY <img src="./img/icon-arrow-right.svg"></a></li>
+						<li><a href="#">MEN'S <img src="./img/icon-arrow-right.svg"></a></li>
+						<li><a href="#">MAKE UP <img src="./img/icon-arrow-right.svg"></a></li>
+						<li><a href="#">FRAGRANCE <img src="./img/icon-arrow-right.svg"></a></li>
+						<li><a href="#">HAIR <img src="./img/icon-arrow-right.svg"></a></li>
+						<li><a href="#">SHOP BY RANGE <img src="./img/icon-arrow-right.svg"></a></li>
+						<li><a href="#">#SALE <img src="./img/icon-arrow-right.svg"></a></li>
+						<li><a href="#">★크리스마스 한정판 기프트★ <img src="./img/icon-arrow-right.svg"></a></li>
+						<li> </li>
+						<li><a href="#">ABOUT LYB 멤버십 <img src="./img/icon-arrow-right.svg"></a></li>
+						<li><a href="#">ABOUT US <img src="./img/icon-arrow-right.svg"></a></li>
+						<li><a href="#">ABOUT CBS <img src="./img/icon-arrow-right.svg"></a></li>
+						<li><a href="#">OUR COMMITMENT <img src="./img/icon-arrow-right.svg"></a></li>
+					</ul>
+					<div class="cart-btn">
+						<img src="./img/ico-gnb-bottom-4.png">
+						<span>장바구니</span>
+					</div>
+				</div>
+			</header>
+			<div id="container">
+				<div id="visual">
+					<div class="fadeOut owl-carousel owl-theme">
+			            <div class="item">
+			              <img src="./img/1c4ca70d-4acb-438e-a566-3d6da8727fa0.jpg">
+			              <img src="./img/c7cceb17-b6e6-42de-8ad2-2bc013ce45e9.jpg">
+			            </div>
+			            <div class="item">
+			              <img src="./img/d2750e5f-887b-43ec-bd66-07f626367879.jpg">
+			              <img src="./img/47c8292d-7ccc-46e1-8b02-e5c868c93303.jpg">
+			            </div>
+			            <div class="item">
+			              <img src="./img/abc88cc8-03ef-4d55-83ff-9a62b140b3c7 (1).jpg">
+			              <img src="./img/d98c0da2-cfec-4764-901b-ea2307645a7e.jpg">
+			            </div>
+          			</div>
+				</div>
+				<div id="event">
+					<div class="mobile_event_hd">
+						<ul>
+							<li style="left: 0px;" class="active">EVENT1</li>
+							<li style="left: 33.35%;">EVENT2</li>
+							<li style="right: 0px;">EVENT3</li>
+						</ul>
+					</div>
+					<ul class="banner">
+						<li><a href="#">
+							<span class="thumb" style="background-image: url(./img/aaa43fed-fec6-49af-a22c-e6681d5fe44d.jpg);"></span>
+							<span class="cnt">
+								<p class="tit ellipsis">쉿! 깜짝 놀랄 연말 선물</p>
+								<p class="text ellipsis">더바디샵에서 선물하고 따뜻한 연말 보내기</p>
+								<span class="more">자세히 보기</span>
+							</span>
+						</a></li>
+						<li><a href="#">
+							<span class="thumb" style="background-image: url(./img/45122652-1634-45a6-bff3-0e63797fc8f9.jpg);"></span>
+							<span class="cnt">
+								<p class="tit ellipsis">바이오브릿지 기부 캠페인</p>
+								<p class="text ellipsis">리미티드 신제품 출시 <br>핸드크림도 사고! 기부도 하고!</p>
+								<span class="more">자세히 보기</span>
+							</span>
+						</a></li>
+						<li><a href="#">
+							<span class="thumb" style="background-image: url(./img/101f9501-a06b-4785-a263-636513ef7490.jpg);"></span>
+							<span class="cnt">
+								<p class="tit ellipsis">회원님께 몽땅 드려요!</p>
+								<p class="text ellipsis">온라인 단독 혜택받고 <br>더바디샵 온라인몰을 알차게!</p>
+								<span class="more">자세히 보기</span>
+							</span>
+						</a></li>
+					</ul>
+				</div>
+				<div id="product">
+					<section class="giftProd">
+						<h3>특별한 연말 선물 세트♥</h3>
+						<div class="listWrap">
+							<div class="owl-carousel list01">
+							  <div class="item">
+							  	<a class="thumb new"><img src="./img/882506-represent.jpg"></a>
+							  	<a class="cnt">
+							  		<span class="star-appraisal"><span class="star-score-box"></span></span>
+							  		<span class="tit limit">트리오 핸드크림 세트</span>
+							  		<span class="price">19,900</span>
+							  	</a>
+							  	<div class="like-save-zone">
+							  		<button class="save">장바구니</button>
+							  		<button class="like"></button>
+							  	</div>
+							  </div>
+							  <div class="item">
+							  	<a class="thumb new"><img src="./img/882517-represent.jpg"></a>
+							  	<a class="cnt">
+							  		<span class="star-appraisal"><span class="star-score-box"></span></span>
+							  		<span class="tit">[리미티드]화이트 머스크 미디엄 선물 세트</span>
+							  		<span class="price">19,900</span>
+							  	</a>
+							  	<div class="like-save-zone">
+							  		<button class="save">장바구니</button>
+							  		<button class="like"></button>
+							  	</div>
+							  </div>
+							  <div class="item">
+							  	<a class="thumb new"><img src="./img/882501-represent.jpg"></a>
+							  	<a class="cnt">
+							  		<span class="star-appraisal"><span class="star-score-box"></span></span>
+							  		<span class="tit">[리미티드]그린티 스몰 선물 세트</span>
+							  		<span class="price">19,900</span>
+							  	</a>
+							  	<div class="like-save-zone">
+							  		<button class="save">장바구니</button>
+							  		<button class="like"></button>
+							  	</div>
+							  </div>
+							  <div class="item">
+							  	<a class="thumb"><img src="./img/882515-represent.jpg"></a>
+							  	<a class="cnt">
+							  		<span class="star-appraisal"><span class="star-score-box"></span></span>
+							  		<span class="tit">화이트 머스크 큐브 선물 세트</span>
+							  		<span class="price">19,900</span>
+							  	</a>
+							  	<div class="like-save-zone">
+							  		<button class="save">장바구니</button>
+							  		<button class="like"></button>
+							  	</div>
+							  </div>
+							  <div class="item">
+							  	<a class="thumb"><img src="./img/889973-represent.jpg"></a>
+							  	<a class="cnt">
+							  		<span class="star-appraisal"><span class="star-score-box"></span></span>
+							  		<span class="tit">핑크 그레이프후룻 바디케어 3종 선물세트</span>
+							  		<span class="price">19,900</span>
+							  	</a>
+							  	<div class="like-save-zone">
+							  		<button class="save">장바구니</button>
+							  		<button class="like"></button>
+							  	</div>
+							  </div>
+							  <div class="item">
+							  	<a class="thumb new"><img src="./img/889969-represent.jpg"></a>
+							  	<a class="cnt">
+							  		<span class="star-appraisal"><span class="star-score-box"></span></span>
+							  		<span class="tit">모링가 & 피나타 3종 선물세트</span>
+							  		<span class="price">19,900</span>
+							  	</a>
+							  	<div class="like-save-zone">
+							  		<button class="save">장바구니</button>
+							  		<button class="like"></button>
+							  	</div>
+							  </div>
+							  <div class="item">
+							  	<a class="thumb"><img src="./img/889968-represent.jpg"></a>
+							  	<a class="cnt">
+							  		<span class="star-appraisal"><span class="star-score-box"></span></span>
+							  		<span class="tit">아르간&사추마 3종 선물세트</span>
+							  		<span class="price">19,900</span>
+							  	</a>
+							  	<div class="like-save-zone">
+							  		<button class="save">장바구니</button>
+							  		<button class="like"></button>
+							  	</div>
+							  </div>
+							  <div class="item">
+							  	<a class="thumb"><img src="./img/889970-represent.jpg"></a>
+							  	<a class="cnt">
+							  		<span class="star-appraisal"><span class="star-score-box"></span></span>
+							  		<span class="tit">허니매니아 선물세트</span>
+							  		<span class="price">19,900</span>
+							  	</a>
+							  	<div class="like-save-zone">
+							  		<button class="save">장바구니</button>
+							  		<button class="like"></button>
+							  	</div>
+							  </div>
+							</div>
+						</div>
+					</section>
+					<section class="newProd">
+						<h3>NEW IN! 새롭게 출시된 신제품</h3>
+						<div class="listWrap">
+							<div class="owl-carousel list01">
+							  <div class="item">
+							  	<a class="thumb new"><img src="./img/91877-represent.jpg"></a>
+							  	<a class="cnt">
+							  		<span class="star-appraisal"><span class="star-score-box"></span></span>
+							  		<span class="tit ">베리 봉봉 샤워젤 250ML</span>
+							  		<span class="price">19,900</span>
+							  	</a>
+							  	<div class="like-save-zone">
+							  		<button class="save">장바구니</button>
+							  		<button class="like"></button>
+							  	</div>
+							  </div>
+							  <div class="item">
+							  	<a class="thumb new"><img src="./img/91896-represent.jpg"></a>
+							  	<a class="cnt">
+							  		<span class="star-appraisal"><span class="star-score-box"></span></span>
+							  		<span class="tit">페퍼민트 캔디케인 샤워젤 250ML</span>
+							  		<span class="price">19,900</span>
+							  	</a>
+							  	<div class="like-save-zone">
+							  		<button class="save">장바구니</button>
+							  		<button class="like"></button>
+							  	</div>
+							  </div>
+							  <div class="item">
+							  	<a class="thumb new"><img src="./img/91874-represent.jpg"></a>
+							  	<a class="cnt">
+							  		<span class="star-appraisal"><span class="star-score-box"></span></span>
+							  		<span class="tit">베리 봉봉 바디 버터 200ML</span>
+							  		<span class="price">19,900</span>
+							  	</a>
+							  	<div class="like-save-zone">
+							  		<button class="save">장바구니</button>
+							  		<button class="like"></button>
+							  	</div>
+							  </div>
+							  <div class="item">
+							  	<a class="thumb"><img src="./img/91902-represent.jpg"></a>
+							  	<a class="cnt">
+							  		<span class="star-appraisal"><span class="star-score-box"></span></span>
+							  		<span class="tit">페퍼민트 캔디케인 바디로션 250ML</span>
+							  		<span class="price">19,900</span>
+							  	</a>
+							  	<div class="like-save-zone">
+							  		<button class="save">장바구니</button>
+							  		<button class="like"></button>
+							  	</div>
+							  </div>
+							  <div class="item">
+							  	<a class="thumb"><img src="./img/91909-represent.jpg"></a>
+							  	<a class="cnt">
+							  		<span class="star-appraisal"><span class="star-score-box"></span></span>
+							  		<span class="tit">베리 봉봉 비누 75G</span>
+							  		<span class="price">19,900</span>
+							  	</a>
+							  	<div class="like-save-zone">
+							  		<button class="save">장바구니</button>
+							  		<button class="like"></button>
+							  	</div>
+							  </div>
+							  <div class="item">
+							  	<a class="thumb new"><img src="./img/92613-represent.jpg"></a>
+							  	<a class="cnt">
+							  		<span class="star-appraisal"><span class="star-score-box"></span></span>
+							  		<span class="tit limit">바이오브릿지 로즈 핸드크림 100ML</span>
+							  		<span class="price">19,900</span>
+							  	</a>
+							  	<div class="like-save-zone">
+							  		<button class="save">장바구니</button>
+							  		<button class="like"></button>
+							  	</div>
+							  </div>
+							  <div class="item">
+							  	<a class="thumb"><img src="./img/83698-represent.jpg"></a>
+							  	<a class="cnt">
+							  		<span class="star-appraisal"><span class="star-score-box"></span></span>
+							  		<span class="tit">인챈티드 포레스트 리드 디퓨저 150ML</span>
+							  		<span class="price">19,900</span>
+							  	</a>
+							  	<div class="like-save-zone">
+							  		<button class="save">장바구니</button>
+							  		<button class="like"></button>
+							  	</div>
+							  </div>
+							</div>
+						</div>
+					</section>
+					<section class="BestProd">
+						<h3>가장 잘나가는 BEST 제품</h3>
+						<div class="listWrap">
+							<div class="owl-carousel list01">
+							  <div class="item">
+							  	<a class="thumb bestseller"><img src="./img/40732-represent.jpg"></a>
+							  	<a class="cnt">
+							  		<span class="star-appraisal"><span class="star-score-box"></span></span>
+							  		<span class="tit limit">화이트 머스크 바디 로션 400ML</span>
+							  		<span class="price">19,900</span>
+							  	</a>
+							  	<div class="like-save-zone">
+							  		<button class="save">장바구니</button>
+							  		<button class="like"></button>
+							  	</div>
+							  </div>
+							  <div class="item">
+							  	<a class="thumb bestseller"><img src="./img/45548-represent.jpg"></a>
+							  	<a class="cnt">
+							  		<span class="star-appraisal"><span class="star-score-box"></span></span>
+							  		<span class="tit">핑크 그레이프후룻 바디 미스트 100ML</span>
+							  		<span class="price">19,900</span>
+							  	</a>
+							  	<div class="like-save-zone">
+							  		<button class="save">장바구니</button>
+							  		<button class="like"></button>
+							  	</div>
+							  </div>
+							  <div class="item">
+							  	<a class="thumb bestseller"><img src="./img/91416-represent.jpg"></a>
+							  	<a class="cnt">
+							  		<span class="star-appraisal"><span class="star-score-box"></span></span>
+							  		<span class="tit">모링가 바디 요거트 200ML (바디로션)</span>
+							  		<span class="price">19,900</span>
+							  	</a>
+							  	<div class="like-save-zone">
+							  		<button class="save">장바구니</button>
+							  		<button class="like"></button>
+							  	</div>
+							  </div>
+							  <div class="item">
+							  	<a class="thumb"><img src="./img/94662-represent.jpg"></a>
+							  	<a class="cnt">
+							  		<span class="star-appraisal"><span class="star-score-box"></span></span>
+							  		<span class="tit">대용량 진저 스캘프 케어 샴푸 400ML</span>
+							  		<span class="price">19,900</span>
+							  	</a>
+							  	<div class="like-save-zone">
+							  		<button class="save">장바구니</button>
+							  		<button class="like"></button>
+							  	</div>
+							  </div>
+							  <div class="item">
+							  	<a class="thumb"><img src="./img/94662-represent.jpg"></a>
+							  	<a class="cnt">
+							  		<span class="star-appraisal"><span class="star-score-box"></span></span>
+							  		<span class="tit">화이트 머스크 바디워시 샤워젤 400ML</span>
+							  		<span class="price">19,900</span>
+							  	</a>
+							  	<div class="like-save-zone">
+							  		<button class="save">장바구니</button>
+							  		<button class="like"></button>
+							  	</div>
+							  </div>
+							  <div class="item">
+							  	<a class="thumb bestseller"><img src="./img/35940-represent.jpg"></a>
+							  	<a class="cnt">
+							  		<span class="star-appraisal"><span class="star-score-box"></span></span>
+							  		<span class="tit">화이트 머스크 오 드 뚜왈렛 100ML (향수)</span>
+							  		<span class="price">19,900</span>
+							  	</a>
+							  	<div class="like-save-zone">
+							  		<button class="save">장바구니</button>
+							  		<button class="like"></button>
+							  	</div>
+							  </div>
+							  <div class="item">
+							  	<a class="thumb bestseller"><img src="./img/54635-represent.jpg"></a>
+							  	<a class="cnt">
+							  		<span class="star-appraisal"><span class="star-score-box"></span></span>
+							  		<span class="tit">브리티쉬 로즈 페탈-소프트 핸드 크림 100ML</span>
+							  		<span class="price">19,900</span>
+							  	</a>
+							  	<div class="like-save-zone">
+							  		<button class="save">장바구니</button>
+							  		<button class="like"></button>
+							  	</div>
+							  </div>
+							  <div class="item">
+							  	<a class="thumb"><img src="./img/55791-represent.jpg"></a>
+							  	<a class="cnt">
+							  		<span class="star-appraisal"><span class="star-score-box"></span></span>
+							  		<span class="tit">스트로베리 바디 버터 200ML</span>
+							  		<span class="price">19,900</span>
+							  	</a>
+							  	<div class="like-save-zone">
+							  		<button class="save">장바구니</button>
+							  		<button class="like"></button>
+							  	</div>
+							  </div>
+							</div>
+						</div>
+					</section>
+					<section class="onlienProd">
+						<h3>온라인 단독 혜택제품</h3>
+						<div class="listWrap">
+							<div class="owl-carousel list01">
+							  <div class="item">
+							  	<a class="thumb hotsale"><img src="./img/885725-represent.jpg"></a>
+							  	<a class="cnt">
+							  		<span class="star-appraisal"><span class="star-score-box"></span></span>
+							  		<span class="tit limit">얼리 하비스트 라즈베리 엑스폴링에이팅 젤 바디 스크럽 250ML</span>
+							  		<span class="price">19,900</span>
+							  	</a>
+							  	<div class="like-save-zone">
+							  		<button class="save">장바구니</button>
+							  		<button class="like"></button>
+							  	</div>
+							  </div>
+							  <div class="item">
+							  	<a class="thumb hotsale"><img src="./img/885433-represent.jpg"></a>
+							  	<a class="cnt">
+							  		<span class="star-appraisal"><span class="star-score-box"></span></span>
+							  		<span class="tit limit">피티나 콜라다 바디버터 200ML 2+1</span>
+							  		<span class="price">19,900</span>
+							  	</a>
+							  	<div class="like-save-zone">
+							  		<button class="save">장바구니</button>
+							  		<button class="like"></button>
+							  	</div>
+							  </div>
+							  <div class="item">
+							  	<a class="thumb hotsale"><img src="./img/885723-represent.jpg"></a>
+							  	<a class="cnt">
+							  		<span class="star-appraisal"><span class="star-score-box"></span></span>
+							  		<span class="tit">피나타 콜라다 바디워시 샤워젤 250ML 2+1</span>
+							  		<span class="price">19,900</span>
+							  	</a>
+							  	<div class="like-save-zone">
+							  		<button class="save">장바구니</button>
+							  		<button class="like"></button>
+							  	</div>
+							  </div>
+							  <div class="item">
+							  	<a class="thumb hotsale"><img src="./img/885722-represent.jpg"></a>
+							  	<a class="cnt">
+							  		<span class="star-appraisal"><span class="star-score-box"></span></span>
+							  		<span class="tit">허니매니아 바디워시 샤워젤 250ML 2+1</span>
+							  		<span class="price">19,900</span>
+							  	</a>
+							  	<div class="like-save-zone">
+							  		<button class="save">장바구니</button>
+							  		<button class="like"></button>
+							  	</div>
+							  </div>
+							  <div class="item">
+							  	<a class="thumb hotsale"><img src="./img/885724-represent.jpg"></a>
+							  	<a class="cnt">
+							  		<span class="star-appraisal"><span class="star-score-box"></span></span>
+							  		<span class="tit">얼리 하비스트 라즈베리 바디워시 샤워젤 250ML 2+1</span>
+							  		<span class="price">19,900</span>
+							  	</a>
+							  	<div class="like-save-zone">
+							  		<button class="save">장바구니</button>
+							  		<button class="like"></button>
+							  	</div>
+							  </div>
+							</div>
+						</div>
+					</section>
+				</div>
+				<div id="special">
+					<h3>SPECIAL EVENT</h3>
+					<ul class="banner">
+						<li><a href="#">
+							<span class="thumb" style="background-image: url(./img/d1e0bd27-c255-4c8a-829e-41701a4b2be4.jpg);"></span>
+							<span class="cnt">
+								<p class="tit ellipsis">★ 포인트 완전 정복 제1탄 ★</p>
+								<p class="text ellipsis">알아두면 쏠쏠하고 신기한 포인트 안내서!!! 읽고 포인트 쌓고 모으고 쓰고 사자!</p>
+								<span class="more">자세히 보기</span>
+							</span>
+						</a></li>
+						<li><a href="#">
+							<span class="thumb" style="background-image: url(./img/73c1a787-100d-454a-9b00-b5f985b9390b.jpg);"></span>
+							<span class="cnt">
+								<p class="tit ellipsis">더바디샵 앱 오픈!</p>
+								<p class="text ellipsis">언제 어디서나 편리하게 더바디샵을 만나세요!</p>
+								<span class="more">자세히 보기</span>
+							</span>
+						</a></li>
+					</ul>
+				</div>
+				<div id="testing">
+					<h3>FOREVER AGAINST ANIMAL TESTING</h3>
+					<div class="sale-hit-zone">
+						<div class="hit-pic"><img src="./img/main-title-sale-img02-625x358.jpg"></div>
+						<div class="hit-guide">
+							<b>JOIN THE FIGHT</b>
+							<p>더바디샵은 화장품 동물실험을 반대합니다. <br>
+							전 세계 화장품 동물실험 금지를 위해 계속 나아갈 것 입니다.</p>
+						</div>
+					</div>
+					<a href="#" class="more">자세히 보기</a>
+				</div>
+			</div>
+			<footer>
+				<div id="footer-util-bar">
+					<div class="sns">
+						<a href="#"><img src="./img/icon-facebook.svg" alt="facebook"></a>
+						<a href="#"><img src="./img/icon-youtube.svg" alt="youtube"></a>
+						<a href="#"><img src="./img/icon-instagram.jpg" alt="instagram"></a>
+					</div>
+					<div class="newsletterSendBtn">뉴스레터 가입하기</div>
+				</div><!-- footer-util-bar -->
+				<div id="footer-region">
+					<div class="footer-regionwrap">
+						<dl>
+							<dt><a href="#">ABOUT US</a></dt>
+							<dd><a href="#">브랜드 스토리</a></dd>
+							<dd><a href="#">더바디샵 뉴스</a></dd>
+							<dd><a href="#">채용정보</a></dd>
+							<dt><a href="#">ABOUT CBS</a></dt>
+							<dd><a href="#">창업안내</a></dd>
+							<dd><a href="#">개설절차안내 및 신청</a></dd>
+						</dl>
+						<dl>
+							<dt><a href="#">OUR COMMITMENT</a></dt>
+							<dd><a href="#">선언문</a></dd>
+							<dd><a href="#">사람을 풍요롭게</a></dd>
+							<dd><a href="#">제품을 풍요롭게</a></dd>
+							<dd><a href="#">지구를 풍요롭게</a></dd>
+							<dd><a href="#">공정무역</a></dd>
+							<dd><a href="#">윤리무역</a></dd>
+							<dd><a href="#">캠페인</a></dd>
+						</dl>
+						<dl>
+							<dt><a href="#">고객만족센터</a></dt>
+							<dd><a href="#">FAQ</a></dd>
+							<dd><a href="#">1:1 문의</a></dd>
+							<dd><a href="#">대량 구매 문의</a></dd>
+							<dd><a href="#">공지사항</a></dd>
+							<dt><a href="#"><b>개인정보처리방침</b></a></dt>
+							<dt><a href="#">커뮤니티</a></dt>
+							<dt><a href="#">사이트맵</a></dt>
+						</dl>
+						<dl>
+							<dt><a href="#">080-759-7700</a></dt>
+							<dd><a href="#">평일 AM 9시 ~ PM 6시</a></dd>
+							<dd><a href="#">(점심시간 PM 12시 ~ 1시)</a></dd>
+							<dd><a href="#">토,일 공휴일 휴무</a></dd>
+						</dl>
+					</div>
+				</div><!-- footer-region -->
+				<div id="footer-region-columns">
+					<p>본 사이트에 게시된 자료에 대한 권리는 (주)비에스케이코퍼레이션에 있으며, 정보를 가공, 판매하는 행위 등 서비스에 게시된 자료를 영리목적으로 사용할 수 없습니다<img src="./img/ico-auth.jpg" alt="auth"></p>
+					<address>
+						<span><em>(주)비에스케이코퍼레이션</em></span><span>대표이사:박종호</span><span>서울시 강남구 학동로 401 13층 고객센터 080-759-7700</span><span>팩스 02-759-0788</span><br>
+						<span>개인정보관리책임자:오미경</span><span>공정거래위원회 고시 제 2000-1호에 따른 사업자등록번호 116-81-62784</span><br>
+						<span class="row">이메일 주소 : <a href="mailto:webmaster@thebodyshop.co.kr">webmaster@thebodyshop.co.kr</a></span>
+						<span>통신판매업신고번호 제 2010-서울강남-02017호 3</span><br>
+						<span><a href="#" title="새창으로 열림">사업자정보확인</a></span>
+						<span><a href="#" title="새창으로 열림">온라인이용약관</a></span>
+						<span>호스팅 사업자 (주)비에스케이코퍼레이션</span>
+					</address>
+				</div><!-- footer-region-columns -->
+			</footer>
+		</div><!-- .inner -->
+	</div>
+</body>
+<script type="text/javascript" src="./js/common.js"></script>
+</html>

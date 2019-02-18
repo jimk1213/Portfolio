@@ -1,0 +1,209 @@
+/* POP UP - pop up에 들어갈 CSS */
+#pop {display: none; position: fixed;width: 100%;height: 100%;z-index: 100;background-color:rgba(0,0,0,0.7);}
+#pop .popwrap{position: absolute;top: 50%;left: 50%;border: 2px #000 solid;transform: translate(-50%, -50%);}
+#pop .popwrap img{display: block;width: 320px;}
+#pop .popwrap .info {background-color: #888;padding: 5px 10px;color: #fff;}
+#pop .popwrap .info span{vertical-align: middle;display: inline-block;line-height: 24px;}
+#pop .popwrap .info input[type=checkbox]{display: inline-block;vertical-align: middle;width: 14px;height: 14px;border: 1px solid #000;}
+#pop .popwrap .info #popclose{float: right;padding-right: 15px;background: url('../img/icon-close-white.svg')100% 50%  no-repeat;background-size: 10px 10px;}
+
+
+/* LAYOUT - 홈페이지 전역의 레이아웃 */
+#wrap {}
+h3 {text-align: center;font-size: 1.78571rem;font-weight: bold; color: #2d2d2d; letter-spacing: -1px; margin-bottom: 50px}
+
+/* HEADER - 헤더에 들어갈 CSS common에 작성함.*/ 
+/*.PC {width: 100%; padding-top: 15px;background-color: #fff;}
+#headerUtil {position: relative; overflow: hidden;}
+#headerUtil .etc-wrap {float: left;}
+#headerUtil .etc-wrap a{display: inline-block;font-size: 12px;color: #2d2d2d;}
+#headerUtil .etc-wrap a+a{margin-left: 12px;}
+#headerUtil .etc-wrap a i{display: inline-block;}
+#headerUtil .etc-wrap a span{display: inline-block;margin-left: 5px; line-height: 24px;vertical-align: top;}
+#headerUtil .etc-wrap a.place i{width: 17px;height: 24px;}
+#headerUtil .etc-wrap a.card i{width: 24px;height: 24px;}
+#headerUtil .logo {position: absolute;margin-left: -130px;top: 0;left: 50%;width: 260px;}
+#headerUtil .logo a{display: block;}
+#headerUtil .logo a img{display: block;width: 100%;}
+#headerUtil .global-wrap {float: right;}
+#headerUtil .global-wrap .article{float: left;margin-right: 2px;}
+#headerUtil .global-wrap .article a{position: relative;display: inline-block; margin-left: 20px;font-size: 12px;color: #2d2d2d;}
+#headerUtil .global-wrap .article a img{height: 24px;}
+#headerUtil .global-wrap .article a strong{position: absolute; display: block; right: -4px; bottom: -3px; width: 20px; height: 20px; line-height: 16px; font-size: 11px; font-weight: normal; color: #fff; text-align: center; background-color: #000; border: 2px #fff solid; border-radius: 100%;}
+
+#headerNav {margin-top: 21px;position: relative;}
+#headerNav .Nav{overflow: hidden;height: 41px;padding-right: 215px;}
+#headerNav .Nav>li{display: inline-block; padding: 0 17px; height: 41px;font-size: 14px;font-family: "Interstate Condensed", "Open Sans", "Noto Sans KR", "Malgun Gothic", "맑은 고딕", "돋움", Dotum, Helvetica, Arial, sans-serif;font-weight: bold;text-transform: uppercase;}
+#headerNav .Nav>li:first-child {padding-left: 0px;}
+#headerNav .Nav>li>a{display: block;line-height: 25px;border-bottom: 2px solid transparent;}
+
+#headerNav .subcategory-wrap {display: none; position: absolute; top: 20px;left: 0;right: 0;padding-top: 21px;}
+
+#headerNav .Nav>li a:hover+.subcategory-wrap {display: block;}
+#headerNav .Nav .subcategory-wrap:hover {display: block;}
+#headerNav .Nav>li:hover a {border-bottom-color: #000;}
+#headerNav .subcategory-wrap .subcategory {padding: 24px 194px; overflow: hidden; background-color: #f7f7f7;}
+#headerNav .subcategory-wrap .subcategory ul{float: left;}
+#headerNav .subcategory-wrap .subcategory .subcate{width: 180px;}
+#headerNav .subcategory-wrap .subcategory .subcate li{margin-bottom: 15px;}
+#headerNav .subcategory-wrap .subcategory ul li.subcate-item{margin-bottom: 0;line-height: 20px;font-size: 12px;color: #313131;font-weight: normal;}
+#headerNav .subcategory-wrap .subcategory .subcateimg{width: 315px;}
+#headerNav .subcategory-wrap .subcategory .subcateimg li{height: 169px;}
+#headerNav .subcategory-wrap .subcategory .subcateimg li img{width: 100%;height: 100%;}
+#headerNav input {position: absolute;right: 0;top: -8px; display: block;padding: 11px 14px 10px 10px;height: 41px;width: 215px;font-weight: bold; border: 1px solid #000;font-size: 12px;color: #b9b9b9;}
+header .delivery-msg-desktop {height: 28px; line-height: 28px; text-align: center; background-color: #f0f0f0;}
+header .delivery-msg-desktop a{font-size: 12px;color: #000;}
+header.mobile{padding-top: 15px;}
+header.mobile>ul{overflow: hidden;height: 46px;}
+header.mobile>ul li{float: left;width: 18%;text-align: center;}
+header.mobile ul li.logo{width: 28%;}
+header.mobile ul li.logo img{width: 100%;}
+header.mobile ul li a{}
+header.mobile ul li a i{}
+header.mobile ul li i img{width: 22px;height: 22px;}
+#hamburger {position: fixed;top: 0;right: 100%;width: 100%;height: 100%;background-color: #fff;z-index: 100;}
+#hamburger h3{margin-bottom: 0;background-color: #ddd;line-height: 60px;}
+#hamburger h3 .close {position: absolute;top: 0;right: 18px;}
+#hamburger h3 .close img{width: 18px;height: 18px;}
+#hamburger ul{}
+#hamburger ul li{position: relative; display: block; height: 48px;padding: 0 18px; line-height: 48px; color: #111; font-weight: bold; text-decoration: none; text-transform: uppercase;border-bottom: 1px solid #ddd;}
+#hamburger ul li a{}
+#hamburger ul li a img{position: absolute;top: 16px;right: 16px; width: 9px;height: 16px;}
+#hamburger .cart-btn {position: absolute;left: 0;right: 0;bottom: 0;height: 68px;padding-top: 13px;background-color: #111;text-align: center;}
+#hamburger .cart-btn img {width: 28px;height: 28px;}
+#hamburger .cart-btn span {display: block;color: #fff;font-size: 11px;}
+*/
+
+/* Footer - 푸터에 들어갈 CSS */
+/*footer {padding-top: 80px;}
+#footer-util-bar {padding: 8px 0;background-color: #f0f0f0;text-align: center;}
+#footer-util-bar .sns{display: inline-block;padding: 6px 0;}
+#footer-util-bar .sns a{display: inline-block;}
+#footer-util-bar .sns a+a{margin-left: 52px;}
+#footer-util-bar .sns a img{width: 30px;height: 30px;}
+#footer-util-bar .newsletterSendBtn{display: inline-block;margin:4px 0 4px 62px;width: 284px;height: 42px;font-size: 14px; line-height: 38px; color: #2d2d2d; text-align: center; border: 2px #111 solid;vertical-align: top;}
+#footer-region {}
+#footer-region .footer-regionwrap{overflow: hidden;margin-top: 50px;padding-left: 136px;}
+#footer-region .footer-regionwrap dl {float: left;width: 246px;}
+#footer-region .footer-regionwrap dl:nth-child(3) {float: left;width: 111px;}
+#footer-region .footer-regionwrap dl:last-child {float: right;}
+#footer-region .footer-regionwrap dl dt{line-height: 20px;margin-bottom: 5px;font-size: 13px;font-weight: 700;text-transform: uppercase;color: #2d2d2d;}
+#footer-region .footer-regionwrap dl dt b{text-decoration: underline;}
+#footer-region .footer-regionwrap dl dt+dt{padding-top: 10px;}
+#footer-region .footer-regionwrap dl dd{line-height: 20px;margin-bottom: 5px;font-size: 13px;}
+#footer-region-columns {margin-top: 37px; padding-left: 136px;}
+#footer-region-columns p{font-size: 12px;color: #2d2d2d;font-weight: bold;}
+#footer-region-columns p img{margin-left: 5px;}
+#footer-region-columns address {font-style: normal; font-size: 12px; }
+#footer-region-columns address span {color: #7d7d7d; padding-right: 8px; }
+#footer-region-columns address span em { font-style: normal; color: #2d2d2d; }
+#footer-region-columns address a {color: #111;text-decoration: underline;}*/
+
+
+/* CONTAINER - 컨테이너에 들어갈 CSS */
+#container{}
+#visual {width: 100%;}
+#visual .owl-theme .item img:nth-child(1){display: block;}
+#visual .owl-theme .item img:nth-child(2){display: none;}
+#visual .owl-nav .owl-prev {left: 0px;}
+#visual .owl-nav .owl-next {right: 0px;}
+#visual .owl-nav button span{display: block;width: 50px;height: 33px;text-indent: -9999px;}
+#visual .owl-nav .owl-prev span{background-image: url(../img/main-slick-prev.png);}
+#visual .owl-nav .owl-next span{background-image: url(../img/main-slick-next.png);}
+
+#event {margin-top: 30px;}
+#event .banner li{width: 32%;}
+#event .mobile_event_hd {display: none;}
+#event .mobile_event_hd ul{position: relative;overflow: hidden;height: 50px;width: 100%;text-align: center;}
+#event .mobile_event_hd ul li{position: absolute;bottom: 0;line-height: 25px;width: 33.3%;border: 1px solid #ddd;border-bottom-width: 0px;border-radius: 10px 10px 0 0 ;}
+#event .mobile_event_hd ul li.active{background-color: #111;color: #fff;font-weight: bolder;line-height: 40px;}
+
+#special .banner li{width: 49%;}
+/*#special...*/
+      .banner{overflow: hidden;}
+      .banner li{position: relative;float: left;height: 410px;}
+      .banner li+li{margin-left: 2%;}
+      .banner li a{display: block;height: 100%;}
+      .banner li a .thumb{display: block;height: 100%;}
+      .banner li a .cnt{position: absolute;bottom: 0;left: 0;right: 0;padding: 15px 30px;background-color: rgba(0,0,0,0.8);color: #fff;text-align: center;}
+      .banner li a .cnt .tit{font-size: 1.5rem;font-weight: bold;}
+      .banner li a .cnt .text{margin: 6px 0 13px;height: 3em;font-size: 0.82857rem;line-height: 1.5em;}
+      .banner li a .cnt .more{font-size: 0.92857rem;text-decoration: underline;}
+
+/* common에 작성함.
+#product {}
+#product section{padding: 55px 0;border-bottom: 1px solid #e1e1e1;}
+#product section .listWrap {padding: 0 10px;}
+#product section .listWrap .item{}
+#product section .listWrap .item a{display: block;}
+#product section .listWrap .item .thumb{}
+#product section .listWrap .item .thumb img{display: block;}
+#product section .listWrap .item .cnt{padding-top: 20px;text-align: center;}
+#product section .listWrap .item .cnt span{display: block;}
+#product section .listWrap .item .cnt .tit{padding-top: 2px;font-size: 1rem; color: #2d2d2d; text-decoration: none; height: 2.8em; line-height: 1.4; overflow: hidden; text-overflow: ellipsis;}
+#product section .listWrap .item .cnt .star-appraisal {display: block;margin-bottom: 10px;}
+#product section .listWrap .item .cnt .star-appraisal .star-score-box{display: block;margin: auto;width: 74px;height: 12px;background: url("../img/icon-start-filled-2px-space_png.png") 0 0 repeat-x;}
+#product section .listWrap .item .like-save-zone {margin-top: 9px;text-align: center;}
+#product section .listWrap .item .like-save-zone button{vertical-align: middle;}
+#product .owl-nav button span{display: block;width: 24px;height: 24px;text-indent: -9999px;}
+#product .owl-nav .owl-prev {left: -10px;}
+#product .owl-nav .owl-next {right: -10px;}
+#product .owl-nav .owl-prev span{background-image: url(../img/carousel-left.png);}
+#product .owl-nav .owl-next span{background-image: url(../img/carousel-right.png);}
+      .owl-carousel {position: relative;}
+      .owl-nav {}
+      .owl-nav button {position: absolute;top: 50%;transform: translateY(-50%);}
+      */
+
+#special,
+#testing {margin-top: 55px;}
+#testing .sale-hit-zone{overflow: hidden;}
+#testing .sale-hit-zone .hit-pic{float: left;width: 50%;}
+#testing .sale-hit-zone .hit-pic img{display: block;width: 100%;}
+#testing .sale-hit-zone .hit-guide{padding: 10% 0;float: right; width: 50%;text-align: center;}
+#testing .sale-hit-zone .hit-guide b{font-size: 1.28571rem;color: #111;}
+#testing .sale-hit-zone .hit-guide p{font-size: 1rem; color: #2d2d2d; margin-top: 15px;}
+#testing .more{display: block;margin:48px auto 0;width: 192px;height: 48px;border: 2px solid #111;line-height: 44px;text-align: center;}
+
+
+/* KEYFRAMES - css3의 animation 속성이 사용하는 @Keyframe */
+
+
+/* MEDIAQUERY - 반응형 홈페이지 CSS */
+      @media screen and (min-width: 1000px){
+      header.mobile {display: none;}
+      }
+
+      @media screen and (max-width: 1000px){
+      header.PC {display: none;}
+      #container {padding-top: 0px;}
+      
+      #event .banner li{width: 100%;height: 150px;}
+      #event .banner li+li{margin-left: 0;margin-top: 5px;}
+      #event .banner li a .thumb{width: 100%;background-size: cover;}
+      #event .banner li a .cnt{top: 0;}
+      #special .banner {width: 90%;margin: auto;}
+      #special .banner li{width: 100%;}
+      #special .banner li .thumb{width: 100%;background-size: cover;}
+      #special .banner li+li{margin-left: 0;margin-top: 10px;}
+      #testing .sale-hit-zone .hit-pic {width: 100%;}
+      #testing .sale-hit-zone .hit-guide {width: 100%;}
+      #footer-region{display: none;}
+      #footer-region-columns {padding-left:30px;padding-right: 30px;}
+      }
+
+      @media (max-width: 481px){/*Mobile Size*/
+      #visual .owl-nav button,
+      .owl-nav button,
+      #visual .owl-theme .item img:nth-child(1){display: none;}
+      #visual .owl-theme .item img:nth-child(2){display: block;}
+      header.mobile>ul li{}
+      #footer-util-bar .newsletterSendBtn {margin: auto;}
+      #event .mobile_event_hd {display: block;}
+      #event .banner{position: relative;padding-top: 100%;}
+      #event .banner li:first-child{display: block;}
+      #event .banner li{display: none; height: auto;position: absolute;top: 0;left: 0;}
+      #event .banner li+li{margin-top: 0;}
+      #event .banner li a .thumb{padding-top: 100%;}
+      #event .banner li a .cnt {top: inherit;}
+      }
