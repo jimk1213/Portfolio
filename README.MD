@@ -1,5 +1,5 @@
 # Portfolio
-#### [1. 포트폴리오 사이트](https://aloha.dothome.co.kr/) 
+#### [1. 포트폴리오](https://aloha.dothome.co.kr/) 
 
 - 사용 프로그램 및 언어
   - 포토샵, 일러스트, HTML5, CSS3, JAVA script, Jquery
