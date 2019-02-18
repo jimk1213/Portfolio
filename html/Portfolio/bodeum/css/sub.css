@@ -1,0 +1,220 @@
+
+/*------------------------SUB PAGE 01 보듬철학---------------------------*/
+.inner>section {margin: 100px 0;}
+
+#continer {margin-left: 90px;}
+#visualmap {position: relative;width: 100%;height: 934px;}
+#visualmap input{}
+#visualmap .visualCnt{position: absolute;top: 10%;left: 5%;z-index: 10;}
+#visualmap .visualCnt i{font-size: 24px;letter-spacing: -1px;font-weight: 700;}
+#visualmap .visualCnt h3{margin-bottom: 50px;font-size: 40px;font-weight: bold;color: #011e3c;}
+#visualmap .mapBtn{}
+#visualmap .mapBtn .line{position: absolute;z-index: 8;top: 117px;left: 485px;width: 102px;height: 196px;background-image: url(../img/sub-1/line.png);}
+#visualmap .mapBtn label{position: absolute;z-index: 9; padding-left: 20px;background: url(../img/sub-1/map_dot.png)0 -4px no-repeat;font-weight: bold;font-size: 15px;}
+#visualmap .mapBtn label.view{top: 108px;left: 480px;}
+#visualmap .mapBtn label.seminar{top: 167px;left: 580px;}
+#visualmap .mapBtn label.bark{top: 222px;left: 520px;}
+#visualmap .mapBtn label.forest{top: 265px;left: 565px;}
+#visualmap .mapBtn label.lesson{top: 307px;left: 534px;}
+#visualmap .mapBtn .bg{position: absolute;z-index: 5;top: 0;right: 0;}
+#visualmap .mapBtn .bg img{display: block;}
+
+/*---------checked~될경우-----------*/
+#view:checked~.mapBtn label.view,
+#seminar:checked~.mapBtn label.seminar,
+#bark:checked~.mapBtn label.bark,
+#forest:checked~.mapBtn label.forest,
+#lesson:checked~.mapBtn label.lesson{background: url(../img/sub-1/map_dot.png)0 -29px no-repeat;color: #fff;text-shadow: 1px 1px 5px #555;}
+#view:checked~.mapBtn .view+div,
+#seminar:checked~.mapBtn .seminar+div,
+#bark:checked~.mapBtn .bark+div,
+#forest:checked~.mapBtn .forest+div,
+#lesson:checked~.mapBtn .lesson+div{z-index: 6;}
+
+#hello {margin: 90px 0;}
+#hello .inner>div{float: left;width: 50%;}
+#hello .textWrap{padding-right: 45px;text-align: right;}
+#hello .textWrap h3{margin-bottom: 25px;font-size: 24px;font-weight: bold;}
+#hello .textWrap h3 b{color :#011e3c;}
+#hello .textWrap .text{font-size: 14px;}
+#hello .imgWrap {}
+#hello .imgWrap img{display: block;padding-top: 77px;width: 100%;}
+
+#ci{text-align: center;background-color: #eee;}
+#ci h3{font-size: 30px;padding-top: 80px;}
+#ci p{font-size: 14px;padding-top: 50px;}
+#ci .imgWrap{overflow: hidden;padding-top: 90px;background: url(../img/sub-1/line_2.png) 50% 0 no-repeat;}
+#ci .imgWrap img{float: left;margin: 0 5%;width: 40%;}
+#ci .colorwrap{overflow: hidden;width: 70%;margin: auto;padding: 90px 0px;background: url(../img/sub-1/line_3.png) 50% 0 no-repeat;}
+#ci .colorwrap em{float: left;width: 20%;padding-top: 20%;}
+
+#map{margin: 90px 0;}
+#map .mapwrap{}
+#map .mapwrap img{}
+#map .cnt_wrap{text-align: center;}
+#map .cnt_wrap h3{font-size: 30px;margin: 50px 0;font-weight: 700;color: #011e3c;}
+#map .cnt_wrap p{font-size: 16px;line-height: 1.5;}
+
+/*------------------------SUB PAGE 02 보듬교육---------------------------*/
+
+#hd {}
+#hd .gnb{padding: 50px 0 80px;}
+#hd .gnb h3{display: inline-block;font-size: 30px;font-weight: bolder;color: #001e3c;}
+#hd .gnb>a{padding-left: 44px;font-size: 15px;color: #b5b5b5;}
+
+#visualad {position: relative;overflow: hidden;width: 1812px;}
+#visualad ul{overflow: hidden;width: 7324px;margin-left: 0;animation:visualad 15s infinite ease;}
+#visualad ul li{float: left;width: 1831px;height: 629px;}
+#visualad ul li a{display: block;width: 100%;height: 100%;}
+#visualad .more{position: absolute; top: 350px;left: 130px; animation:visualmore 15s infinite ease;}
+
+.what {}
+.what ul {text-align: center;height: 30px;}
+.what ul li {position: relative;width: 150px;height: 32px;margin: 0 20px;display: inline-block;transition: height 0.4s;background-color: #011e3c;}
+.what ul li a {position: absolute;top: 0;left: 0;width: 100%;padding: 0 5px;font-size: 16px;line-height: 30px;color: #000;}
+.what ul li:hover a {color: #fff;}
+.what ul li .bx_inner {position: absolute;top: 0;left: 0;right: 0;bottom: 0; background-color: #fff;height: 30px;}
+
+.sub-2 .sub-2cnt {position: relative;border: 1px solid #ddd;padding: 58px 110px;}
+#continer .sub-2cnt h5{position: absolute;bottom: 100%;left: 50px;transform: translateY(50%); padding: 5px 70px;background-color: #fff;font-size: 30px;}
+#continer section .cntbox{overflow: hidden;}
+#continer section .cntbox ul {width: 1072px; transition: all 0.4s;}
+#continer section .cntbox ul li{float: left;width: 250px;}
+#continer section .cntbox ul li+li{margin-left: 24px;}
+#continer section .cntbox ul li .thumb {display: block;margin-bottom: 15px;}
+#continer section .cntbox ul li .thumb a{display: block;}
+#continer section .cntbox ul li .thumb a img{display: block;width: 250px;height: 250px;}
+#continer section .cntbox ul li span {display: block;}
+#continer section .cntbox ul li .tit{margin-bottom: 20px;font-size: 18px; font-weight: bold;}
+#continer section .cntbox ul li .Dprice{font-size: 12px;text-decoration: line-through;}
+#continer section .cntbox ul li .price{font-size: 16px;color: #036564;font-weight: bold;}
+#continer section .cntbox ul li .sale{padding: 0 3px;font-size: 14px;background-color: #036564;font-weight: bold;color: #fff;}
+#continer section .cntbox label {position: absolute;top: 50%;}
+#continer section .cntbox label.L {display: none;left: 20px;}
+#continer section .cntbox label.R {display: block;right: 20px;}
+#continer section input:nth-child(2):checked~.cntbox label.L {display: block;}
+#continer section input:nth-child(2):checked~.cntbox label.R {display: none;}
+#continer section input:nth-child(1):checked~.cntbox label.L {display: none;}
+#continer section input:nth-child(1):checked~.cntbox label.R {display: block;}
+#continer section input:nth-child(1):checked~.cntbox ul {margin-left: 0;}
+#continer section input:nth-child(2):checked~.cntbox ul {margin-left: -274px;}
+
+
+#sample {background-color: #eee;padding: 80px 0;text-align: center;}
+#sample h3 {font-size: 30px;padding-bottom: 80px;background: url(../img/sub-1/line_3.png) 50% 100% no-repeat;}
+#sample .video {float: left;width: 45%;height: 290px;margin: 2%;}
+#sample .video iframe{width: 100%;height: 100%;}
+
+/*------------------------SUB PAGE 03 영상교육이란?---------------------------*/
+#what_cnt {margin-top: 60px;position: relative;height: 743px;}
+#what_cnt ul{}
+#what_cnt ul li{}
+#what_cnt ul li.tit{position: absolute;z-index: 4;right: 7%;width: 35%;}
+#what_cnt ul li.tit:nth-of-type(1){top: 90px;}
+#what_cnt ul li.tit:nth-of-type(3){top: 296px;}
+#what_cnt ul li.tit:nth-of-type(5){top: 460px;}
+#what_cnt ul li.tit b{display: block;font-size: 1.9vw;}
+#what_cnt ul li.tit em{display: block;width: 100%;margin-top: 10px;font-size: 1vw;line-height: 1.5;}
+#what_cnt ul li.bg{position: absolute;top: 0;left: 0px;}
+#what_cnt ul li.tit:hover+li{z-index: 3;}
+#what_cnt ul li.tit:hover b{color: #036564; }
+#what_cnt ul li.bg:hover{z-index: 3;}
+
+#curriculum {margin: 90px 0;}
+#curriculum h3{padding-bottom: 100px;background-image: url(../img/sub-1/line_2.png);background-position: 50% 100%;text-align: center;font-size: 30px;font-weight: bold;}
+#curriculum .control {overflow: hidden;width: 390px;margin: auto;}
+#curriculum .control button{float: left;padding: 0 30px;font-size: 13px;line-height: 30px;border: 1px solid #ddd;background-color: #eee;}
+#curriculum .control button+button{margin-left: 10px;}
+#curriculum .control button.active {background-color: #011e3c; color: #fff;}
+#curriculum .pack{display: none;}
+#curriculum .pack#fullPack {display: block;}
+#curriculum .pack li{}
+#curriculum .pack li .cnt{margin:30px auto 0 0;text-align: center;font-size: 14px;line-height: 1.4;}
+#curriculum .pack li h5{margin: 60px; font-size: 15px;font-weight: bold;text-align: center;}
+#curriculum .pack li .bx{background-color: #eee;padding: 30px 0px;border-radius: 5px;}
+#curriculum .pack li .bx ul{}
+#curriculum .pack li .bx ul li{padding-left: 90px;background-position: 20px 0;}
+#curriculum .pack li .bx ul li:nth-child(1){background-image: url(../img/sub-3/btn-1.png);}
+#curriculum .pack li .bx ul li:nth-child(2){background-image: url(../img/sub-3/btn-2.png);}
+#curriculum .pack li .bx ul li:nth-child(3){background-image: url(../img/sub-3/btn-3.png);}
+#curriculum .pack li .bx ul li+li{margin-top: 50px;}
+#curriculum .pack li .bx ul li b{font-size: 20px;}
+#curriculum .pack li .bx ul li em{display: block;font-size: 15px;margin-top: 15px;}
+#curriculum .pack li.ask {width: 130px;line-height: 30px;margin:62px auto 0;text-align: center;background-color: #036564;border-radius: 20px;color: #fff;font-weight: bold;}
+
+#teaching {margin: 90px 0;padding-bottom: 90px;background-color: #f7f7f7;text-align: center;}
+#teaching h3{padding: 100px 0;background-image: url(../img/sub-1/line_2.png);background-position: 50% 100%;text-align: center;font-size: 30px;font-weight: bold;}
+#teaching img{display: block;width: 100%;}
+#teaching .text{margin: 50px 0;background-color: #f7f7f7;}
+#teaching .video {float: left;border: 1px solid #ddd;width: 32%;height: 260px;background-color: #fff;}
+#teaching .video+.video {margin-left: 2%;}
+#teaching .video iframe{width: 100%;height: 70%;}
+#teaching .video .cnt{padding: 10px;height: 30%;text-align: center;line-height: 28px;}
+#teaching .video .cnt span{display: block;height: 50%;color: #555; font-weight: bold;font-size: 16px;}
+#teaching .video .cnt p{height: 50%;font-size: 12px;font-weight: bold;color:#036564;  border-top: 1px solid #ddd;}
+
+/*------------------------SUB PAGE 04, 05 그룹레슨이란? 개인레슨이란?---------------------------*/
+#grop h5{margin: 60px 0;font-size: 25px;text-align: center;line-height: 1.5;}
+#grop h5 b{font-size: 30px;color:#036564;}
+#grop .video{margin-bottom: 90px;width: 100%;height: 600px;}
+#grop .video iframe{width: 100%;height: 100%;}
+.subCnt {overflow: hidden;padding: 50px 0;background-color: #eee;}
+.subCnt h6 {float: left;padding-top: 175px;width: 50%;text-align: center;}
+.subCnt .text {float: left;width: 50%;font-size: 15px;}
+.subCnt .ask {display: block;width: 130px;height: 30px;line-height: 30px;margin:62px auto 0;text-align: center;background-color: #036564;border-radius: 20px;color: #fff;font-weight: bold;}
+#trainer {margin: 90px 0;}
+#trainer h3{padding-bottom: 100px;background-image: url(../img/sub-1/line_2.png);background-position: 50% 100%;text-align: center;font-size: 30px;font-weight: bold;}
+#trainer ul{overflow: hidden;}
+#trainer ul li{float: left;width: 25%;margin:10% 0 10% 6.25%;}
+#trainer ul li .thumb{position: relative}
+#trainer ul li:hover .thumb{position: relative;box-shadow: 3px 3px 5px #888;}
+#trainer ul li:not(:hover) .thumb:after{content: "";position: absolute;top: 0;left: 0;right: 0;bottom: 0; border-radius: 50%; background: rgba(0,0,0,0.3);}
+#trainer ul li .thumb{width: 100%;padding-top: 100%;background-size: 100%;border-radius: 50%;}
+#trainer ul li .name{margin-top: 15px;text-align: center;font-size: 1.6vw;color: #333;font-weight: bold;}
+#trainer ul li .name:after{content: " 훈련사";}
+
+/*------------------------SUB PAGE 06 커뮤니티---------------------------*/
+#view {position: relative;}
+#view .owl-carousel {width: 100%;height: 100%;}
+#view .owl-carousel .owl-dots{position: relative; z-index: 5;margin-top: -30px;}
+#view .item {text-align: center;font-size: 18px;background: #fff;}
+#view .item .visualCnt{padding: 225px 0 0 100px; text-align: left;}
+#view .item .visualCnt h3{font-size: 40px;}
+#view .item .visualCnt .subtext{ margin: 40px 0 25px; line-height: 1.5;font-size: 13px;}
+
+#interview{overflow: hidden;}
+#interview h3{padding-bottom: 100px;background-image: url(../img/sub-1/line_2.png);background-position: 50% 100%;text-align: center;font-size: 30px;font-weight: bold;}
+#interview img{width: 100%;}
+#interview .slick-arrow {background-color: #ddd;border-radius: 50%;}
+#interview .interTop {width: 70%;margin: auto;}
+#interview .interside {width: 70%;margin: 30px auto;}
+#interview .interside .slick-slide{margin: 3px}
+
+
+
+
+@keyframes visualmore{
+	0% {opacity: 0;}
+	5% {opacity: 1;}
+	25% {opacity: 1;}
+	30% {opacity: 0;}
+	38% {opacity: 1;}
+	57% {opacity: 1;}
+	62% {opacity: 0;}
+	66% {opacity: 0;}
+	71% {opacity: 1;}
+	94% {opacity: 1;}
+	95% {opacity: 0;}
+	100% {opacity: 0;}
+}
+
+@keyframes visualad {
+	0% {margin-left: 0;}
+	30% {margin-left: 0px;}
+	33.3333% {margin-left: -1831px;}
+	62% {margin-left: -1831px;}
+	66.6666% {margin-left: -3662px;}
+	97% {margin-left: -3662px;}
+	100% {margin-left: -5493px;}
+}
+
