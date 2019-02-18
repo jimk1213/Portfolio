@@ -1,0 +1,30 @@
+/*RESET - CSS를 리셋*/
+*,:before,:after {margin: 0; padding: 0; color: inherit; text-decoration: inherit; font-style: inherit; border: 0px solid transparent; outline: 0 solid transparent; background: transparent none center center no-repeat; box-sizing: border-box;}
+ul, ol {list-style: none;}
+table {table-layout: fixed;}
+h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: inherit;}
+label, button, [type=button], [type=submit], [type=reset], a {cursor: pointer;}
+img {display: block;}
+
+
+/*CLASS - 내가 쓸 CLASS를 미리 작성*/
+.clearfix:after {content: ""; display: block; clear: both;}
+.ellipsis {text-overflow: ellipsis; overflow: hidden; white-space: nowrap;}
+.hidden {display: none; width: 0; height: 0; visibility: hidden; opacity: 0;}
+.bold {font-weight: 700;}
+
+/*GLOBAL - 홈페이지 전역에 들어갈 공통된 CSS*/
+[type=checkbox], [type=radio] {display: none;}
+.inner {display: block; position: relative; margin: auto; width: 1020px;height: 100%;}
+.inner:after {content: ""; display: block; clear: both;}
+
+#wrap {font-family: Dotum, sans-serif;}
+
+.delivaryFree .thumb:after{content: "무료배송"; background-color: #5ea403;}
+.almostsoldout .thumb:after{content: "품절임박"; background-color: rgb(174,0,0);}
+.price{font-family: tahoma;font-weight: bold;}
+.price:after {content: "원";}
+.rocket:before {content: "";position: absolute; left: 100%; bottom: 0;margin-left: 10px; width: 56px;height: 14px;background-image: url(../img/rocket.png);background-position: 0 0;background-size: 100% 100%;}
+.rocket {position: relative;}
+.thumb:after {position: absolute; left: 0; bottom: 0;padding: 3px 4px 2px; color: #fff; font-size: 11px;}
+.thumb {position: relative;}
