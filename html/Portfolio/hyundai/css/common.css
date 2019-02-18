@@ -1,0 +1,21 @@
+/*RESET - CSS를 리셋*/
+*,:before,:after {margin: 0; padding: 0; color: inherit; text-decoration: inherit; font-style: inherit; border: 0px solid transparent; outline: 0 solid transparent; background: transparent none center center no-repeat; box-sizing: border-box;}
+ul, ol {list-style: none;}
+table {table-layout: fixed;}
+h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: inherit;}
+label, button, [type=button], [type=submit], [type=reset], a {cursor: pointer;}
+
+
+/*CLASS - 내가 쓸 CLASS를 미리 작성*/
+.clearfix:after {content: ""; display: block; clear: both;}
+.ellipsis {text-overflow: ellipsis; overflow: hidden; white-space: nowrap;}
+.hidden {display: none; width: 0; height: 0; visibility: hidden; opacity: 0;}
+.bold {font-weight: 700;}
+
+/*GLOBAL - 홈페이지 전역에 들어갈 공통된 CSS*/
+.inner {position: relative; margin: auto; width: 1000px;}
+.inner:after {content: ""; display: block; clear: both;}
+
+#wrap {font-family: 'Roboto', 'Nanum Gothic', sans-serif;}
+
+

@@ -1,0 +1,94 @@
+/*LAYOUT - 홈페이지 전역의 레이아웃*/
+/*HEADER - 헤더에 들어갈 CSS*/
+header{border-top: 7px solid #1b218f; border-bottom: 1px solid #2b2a52;}
+header h1{margin:40px 0;float: left;}
+header h1 a {display: block; width: 212px; height: 42px; background-image: url(../img/logo.jpg);text-indent: -9999px;}
+header nav{float: right;margin-top: 62px;}
+header nav ul{overflow: hidden;}
+header nav ul li{float: left;}
+header nav ul li+li {margin-left: 46px;}
+header nav ul li a{clear: #444; font-weight: bold;}
+header .gnb{position: absolute;top: 10px;right: 0;color: #666; font-size: 0;}
+header .gnb span {position: relative; font-size: 10px;}
+header .gnb span+span {margin-left: 15px;}
+header .gnb span+span:after {content: ""; position: absolute; top: 2px; left: -8px;width: 1px; height: 10px; background: #666;}
+header .gnb span a{}
+header .gnb span {}
+
+/*FOOTER - 푸터에 들어갈 CSS*/
+footer {background-color: #3d5674;}
+footer h2 {float: left; margin:54px 0;}
+footer h2 a {display: block;width: 145px; height: 23px; background-image: url(../img/logo2.jpg);text-indent: -9999px;}
+footer .ftcnt{float: left;margin: 12px 0 0 90px;color: #fff;}
+footer .ftcnt nav{ font-size: 0px;}
+footer .ftcnt nav a{font-size: 12px;}
+footer .ftcnt nav a+a{margin-left: 18px;}
+footer .ftcnt address{margin-top:12px;}
+footer .ftcnt address p{font-size: 12px;}
+footer .ftcnt .copy{margin: 10px 0;font-size: 12px;}
+
+/*CONTAINER - 컨테이너에 들어갈 CSS*/
+#container {}
+
+#visual{height: 360px; border-bottom: 1px solid #1e2b60;background-image: url(../img/main.jpg); background-size: 100%;}
+#content {overflow: hidden;}
+#content table {width: 100%;border-collapse: collapse;}
+#content table col{width: 25%;}
+#content table td{padding: 20px 20px 0; height: 250px;border: 1px solid #ddd;vertical-align: top;}
+#content table .bg1{background-image: url(../img/bg_1.jpg);background-position: 100% 100%;}
+#content table .bg2{background-image: url(../img/bg_2.jpg);background-size: 100% 100%;text-indent: -9999px;}
+#content table .bg3{background-image: url(../img/bg_3.jpg);background-position: 50% 95%;}
+#content table .bg4{background-image: url(../img/bg_4.jpg);background-size: 100% 100%;text-indent: -9999px;}
+#content table .bg5{background-image: url(../img/bg_5.jpg);background-position: 95% 95%;}
+#content table .bg6{background-image: url(../img/bg_6.jpg);background-size: 100% 100%;text-indent: -9999px;}
+#content table .bg7{background-image: url(../img/bg_7.jpg);background-position: 10% 95%;}
+#content table td .tit {overflow: hidden; margin-bottom: 20px;}
+#content table td .tit h3{float: left;font-weight: 700;text-transform: uppercase;}
+#content table td .tit a{float: right;position: relative; margin-top: 6px;padding-right: 6px; color: #888;	font-size: 11px;}
+#content table td .tit a:after{content: "";position: absolute; top: 6px; right: 0; border-width: 3px 0 3px 3px;border-left-color: #888;}
+
+#content table td .cnt {overflow: hidden;}
+#content table td .cnt .desc{margin-bottom: 20px;color: #666; font-size: 12px;font-weight: 700;line-height: 1.6;text-align: justify;}
+#content table td .cnt .btn {margin-bottom: 4px;padding: 4px 12px; color: #fff; font-size: 12px; font-weight: bold;border-radius: 4px; background-color: #4cb8bb;}
+#recruit .cnt .btn {float:left;}
+#song .cnt .btn {float: right; clear: both;}
+
+
+
+#movie .cnt .thumb {}
+#movie .cnt .thumb img {display: block;width: 100%;}
+#movie .cnt b {display: block;margin: 30px 0; color:#4b5265; font-size: 13px; line-height: 1.6;}
+
+#movie .cnt .desc p {position: relative; padding-left: 10px; margin-bottom: 4px;}
+#movie .cnt .desc p:before {content: "";position: absolute; top: 8px;left: 0;width: 4px;height: 4px;border-radius: 50%;background-color: #666;}
+
+#news {}
+#news .cnt{}
+#news .cnt article{overflow: hidden;padding-bottom: 4px;}
+#news .cnt article+article{padding-top: 10px;border-top: 1px dashed #ddd;}
+#news .cnt article .thumb{float: left; margin-top: 10px;}
+#news .cnt article .thumb img{}
+#news .cnt article .atcCnt{float: right;width: 360px;}
+#news .cnt article .atcCnt a{display: block;}
+#news .cnt article .atcCnt a strong{font-size: 13px;}
+#news .cnt article .atcCnt a .desc{}
+
+#news .cnt article .atcCnt b{margin-top: 4px; color: #2c7651; font-family: 'Dotum', sans-serif; font-size: 12px;}
+#news .cnt article .atcCnt b:before{content: "[";}
+#news .cnt article .atcCnt b:after{content: "]";}
+
+#sns {position: relative;}
+#sns .cnt .sns{position: absolute;left: 20px;bottom: 20px;}
+#sns .cnt .sns strong{font-size: 13px;}
+#sns .cnt .sns ul {overflow: hidden; margin-top: 12px;}
+#sns .cnt .sns ul li {float: left;}
+#sns .cnt .sns ul li+li {margin-left: 10px;}
+#sns .cnt .sns ul li a {display: block;}
+#sns .cnt .sns ul li a img {display: block;}
+
+
+#content .partner{margin: 30px 54px 34px; font-size: 0;text-align: center;border-width: 1px 0; border-color: #ddd;border-style: dashed;}
+#content .partner img{}
+/*KEYFRAMES - css3의 animation 속성이 사용하는 @Keyframe*/
+
+/*MEDIAQUERY - 반응형 홈페이지 CSS*/
